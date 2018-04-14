@@ -18,7 +18,7 @@ import UIKit
  */
 
 
-class ModelController: NSObject, UIPageViewControllerDataSource {
+class ModelController: NSObject {
 
     var pageData: [String] = []
 
@@ -47,9 +47,10 @@ class ModelController: NSObject, UIPageViewControllerDataSource {
         // For simplicity, this implementation uses a static array of model objects and the view controller stores the model object; you can therefore use the model object to identify the index.
         return pageData.index(of: viewController.dataObject) ?? NSNotFound
     }
+}
 
-    // MARK: - Page View Controller Data Source
-
+// MARK: - UIPageViewControllerDataSource
+extension ModelController: UIPageViewControllerDataSource {
     func pageViewController(_ pageViewController: UIPageViewController, viewControllerBefore viewController: UIViewController) -> UIViewController? {
         var index = self.indexOfViewController(viewController as! DataViewController)
         if (index == 0) || (index == NSNotFound) {
@@ -59,7 +60,7 @@ class ModelController: NSObject, UIPageViewControllerDataSource {
         index -= 1
         return self.viewControllerAtIndex(index, storyboard: viewController.storyboard!)
     }
-
+    
     func pageViewController(_ pageViewController: UIPageViewController, viewControllerAfter viewController: UIViewController) -> UIViewController? {
         var index = self.indexOfViewController(viewController as! DataViewController)
         if index == NSNotFound {
@@ -72,6 +73,7 @@ class ModelController: NSObject, UIPageViewControllerDataSource {
         }
         return self.viewControllerAtIndex(index, storyboard: viewController.storyboard!)
     }
-
+    
+    
 }
 
