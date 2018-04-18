@@ -7,15 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F34358E22086CF870054F620 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34358E12086CF870054F620 /* RootViewController.swift */; };
+		F3667DB12085823C000E0D88 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3667DB02085823C000E0D88 /* PageViewController.swift */; };
 		F3DC3F7A2081A8C700791116 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DC3F792081A8C700791116 /* AppDelegate.swift */; };
-		F3DC3F7C2081A8C700791116 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DC3F7B2081A8C700791116 /* RootViewController.swift */; };
-		F3DC3F7E2081A8C700791116 /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DC3F7D2081A8C700791116 /* DataViewController.swift */; };
 		F3DC3F802081A8C700791116 /* ModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DC3F7F2081A8C700791116 /* ModelController.swift */; };
 		F3DC3F832081A8C700791116 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3DC3F812081A8C700791116 /* Main.storyboard */; };
 		F3DC3F852081A8C800791116 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3DC3F842081A8C800791116 /* Assets.xcassets */; };
 		F3DC3F882081A8C800791116 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3DC3F862081A8C800791116 /* LaunchScreen.storyboard */; };
 		F3DC3F932081A8C800791116 /* InfinitePageViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DC3F922081A8C800791116 /* InfinitePageViewControllerTests.swift */; };
 		F3DC3F9E2081A8C800791116 /* InfinitePageViewControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DC3F9D2081A8C800791116 /* InfinitePageViewControllerUITests.swift */; };
+		F3DC3FB02081E82B00791116 /* UpperTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DC3FAF2081E82B00791116 /* UpperTabViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F34358E12086CF870054F620 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		F3667DB02085823C000E0D88 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 		F3DC3F762081A8C700791116 /* InfinitePageViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InfinitePageViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3DC3F792081A8C700791116 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F3DC3F7B2081A8C700791116 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
-		F3DC3F7D2081A8C700791116 /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
 		F3DC3F7F2081A8C700791116 /* ModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelController.swift; sourceTree = "<group>"; };
 		F3DC3F822081A8C700791116 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F3DC3F842081A8C800791116 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +52,7 @@
 		F3DC3F992081A8C800791116 /* InfinitePageViewControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InfinitePageViewControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3DC3F9D2081A8C800791116 /* InfinitePageViewControllerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfinitePageViewControllerUITests.swift; sourceTree = "<group>"; };
 		F3DC3F9F2081A8C800791116 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3DC3FAF2081E82B00791116 /* UpperTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpperTabViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,13 +104,14 @@
 			isa = PBXGroup;
 			children = (
 				F3DC3F792081A8C700791116 /* AppDelegate.swift */,
-				F3DC3F7B2081A8C700791116 /* RootViewController.swift */,
-				F3DC3F7D2081A8C700791116 /* DataViewController.swift */,
 				F3DC3F7F2081A8C700791116 /* ModelController.swift */,
 				F3DC3F812081A8C700791116 /* Main.storyboard */,
 				F3DC3F842081A8C800791116 /* Assets.xcassets */,
 				F3DC3F862081A8C800791116 /* LaunchScreen.storyboard */,
 				F3DC3F892081A8C800791116 /* Info.plist */,
+				F3DC3FAF2081E82B00791116 /* UpperTabViewController.swift */,
+				F3667DB02085823C000E0D88 /* PageViewController.swift */,
+				F34358E12086CF870054F620 /* RootViewController.swift */,
 			);
 			path = InfinitePageViewController;
 			sourceTree = "<group>";
@@ -262,9 +265,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F3DC3F7C2081A8C700791116 /* RootViewController.swift in Sources */,
+				F34358E22086CF870054F620 /* RootViewController.swift in Sources */,
+				F3667DB12085823C000E0D88 /* PageViewController.swift in Sources */,
+				F3DC3FB02081E82B00791116 /* UpperTabViewController.swift in Sources */,
 				F3DC3F802081A8C700791116 /* ModelController.swift in Sources */,
-				F3DC3F7E2081A8C700791116 /* DataViewController.swift in Sources */,
 				F3DC3F7A2081A8C700791116 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

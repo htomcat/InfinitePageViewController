@@ -21,7 +21,7 @@ import UIKit
 class ModelController: NSObject {
 
     var pageData: [String] = []
-
+    var pageViewController: UIPageViewController?
 
     override init() {
         super.init()
@@ -30,6 +30,7 @@ class ModelController: NSObject {
         pageData = dateFormatter.monthSymbols
     }
 
+    /*
     func viewControllerAtIndex(_ index: Int, storyboard: UIStoryboard) -> DataViewController? {
         // Return the data view controller for the given index.
         if (self.pageData.count == 0) || (index >= self.pageData.count) {
@@ -47,33 +48,25 @@ class ModelController: NSObject {
         // For simplicity, this implementation uses a static array of model objects and the view controller stores the model object; you can therefore use the model object to identify the index.
         return pageData.index(of: viewController.dataObject) ?? NSNotFound
     }
+ */
 }
 
-// MARK: - UIPageViewControllerDataSource
-extension ModelController: UIPageViewControllerDataSource {
-    func pageViewController(_ pageViewController: UIPageViewController, viewControllerBefore viewController: UIViewController) -> UIViewController? {
-        var index = self.indexOfViewController(viewController as! DataViewController)
-        if (index == 0) || (index == NSNotFound) {
-            return nil
-        }
-        
-        index -= 1
-        return self.viewControllerAtIndex(index, storyboard: viewController.storyboard!)
+// MARK: - UITableViewDatasource
+extension ModelController: UICollectionViewDataSource {
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        return pageData.count
     }
     
-    func pageViewController(_ pageViewController: UIPageViewController, viewControllerAfter viewController: UIViewController) -> UIViewController? {
-        var index = self.indexOfViewController(viewController as! DataViewController)
-        if index == NSNotFound {
-            return nil
-        }
-        
-        index += 1
-        if index == self.pageData.count {
-            return nil
-        }
-        return self.viewControllerAtIndex(index, storyboard: viewController.storyboard!)
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "Cell", for: indexPath)
+        cell.backgroundColor = .blue
+        return cell
     }
-    
-    
 }
 
+extension ModelController: UICollectionViewDelegate {
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        print(indexPath.row)
+    }
+    
+}
