@@ -26,9 +26,12 @@ class RootViewController: UIViewController {
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        print(segue.destination)
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+        switch segue.destination {
+        case let vc as UpperTabViewController:
+            vc.dataSource = ModelController()
+        default:
+            break
+        }
     }
 
 }
