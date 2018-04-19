@@ -20,14 +20,16 @@ import UIKit
 
 class ModelController: NSObject {
 
-    var pageData: [String] = []
-    var pageViewController: UIPageViewController?
+    var pageData: [UIViewController] = []
 
     override init() {
         super.init()
         // Create the data model.
-        let dateFormatter = DateFormatter()
-        pageData = dateFormatter.monthSymbols
+        let view1 = UIViewController()
+        view1.view.backgroundColor = .red
+        let view2 = UIViewController()
+        view2.view.backgroundColor = .yellow
+        pageData = [view1, view2]
     }
 
     /*
@@ -67,5 +69,37 @@ extension ModelController: UICollectionViewDataSource {
 extension ModelController: UICollectionViewDelegate {
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         print(indexPath.row)
+    }
+}
+
+// MARK: - UIPageViewControllerDataSource
+extension ModelController: UIPageViewControllerDelegate {
+    
+}
+extension ModelController: UIPageViewControllerDataSource {
+    func pageViewController(_ pageViewController: UIPageViewController, viewControllerBefore viewController: UIViewController) -> UIViewController? {
+        
+        guard let viewControllerIndex = pageData.index(of: viewController) else { return nil }
+        
+        let previousIndex = viewControllerIndex - 1
+        
+        guard previousIndex >= 0 else { return pageData.last }
+        
+        guard pageData.count > previousIndex else { return nil        }
+        
+        return pageData[previousIndex]
+    }
+    
+    func pageViewController(_ pageViewController: UIPageViewController, viewControllerAfter viewController: UIViewController) -> UIViewController?
+    {
+        guard let viewControllerIndex = pageData.index(of: viewController) else { return nil }
+        
+        let nextIndex = viewControllerIndex + 1
+        
+        guard nextIndex < pageData.count else { return pageData.first }
+        
+        guard pageData.count > nextIndex else { return nil }
+        
+        return pageData[nextIndex]
     }
 }
