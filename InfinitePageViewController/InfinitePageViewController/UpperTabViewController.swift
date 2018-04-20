@@ -16,6 +16,8 @@ class UpperTabViewController: UIViewController {
             collectionView.reloadData()
         }
     }
+    var delegate: CustomDelegate?
+
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -29,7 +31,7 @@ class UpperTabViewController: UIViewController {
         let collectionView = UICollectionView(frame: CGRect(x: 0, y: 0, width: UIScreen.main.bounds.width, height: 60), collectionViewLayout: layout)
         collectionView.register(UICollectionViewCell.self, forCellWithReuseIdentifier: "Cell")
         collectionView.dataSource = dataSource
-        collectionView.delegate = dataSource
+        collectionView.delegate = delegate
         return collectionView
     }
 

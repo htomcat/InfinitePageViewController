@@ -11,6 +11,8 @@ import UIKit
 class RootViewController: UIViewController {
 
     let dataSource = ModelController()
+    let delegate = CustomDelegate()
+
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -29,9 +31,12 @@ class RootViewController: UIViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         switch segue.destination {
         case let vc as UpperTabViewController:
+            delegate.upperTab = vc
+            vc.delegate = delegate
             vc.dataSource = dataSource
         case let vc as PageViewController:
             vc.dataSource = dataSource
+            delegate.pageController = vc
         default:
             break
         }

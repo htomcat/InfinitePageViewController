@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F33332FA20896DD5001021C0 /* CustomDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33332F920896DD5001021C0 /* CustomDelegate.swift */; };
 		F34358E22086CF870054F620 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34358E12086CF870054F620 /* RootViewController.swift */; };
 		F3667DB12085823C000E0D88 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3667DB02085823C000E0D88 /* PageViewController.swift */; };
 		F3DC3F7A2081A8C700791116 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DC3F792081A8C700791116 /* AppDelegate.swift */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F33332F920896DD5001021C0 /* CustomDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDelegate.swift; sourceTree = "<group>"; };
 		F34358E12086CF870054F620 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 		F3667DB02085823C000E0D88 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 		F3DC3F762081A8C700791116 /* InfinitePageViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InfinitePageViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -112,6 +114,7 @@
 				F3DC3FAF2081E82B00791116 /* UpperTabViewController.swift */,
 				F3667DB02085823C000E0D88 /* PageViewController.swift */,
 				F34358E12086CF870054F620 /* RootViewController.swift */,
+				F33332F920896DD5001021C0 /* CustomDelegate.swift */,
 			);
 			path = InfinitePageViewController;
 			sourceTree = "<group>";
@@ -270,6 +273,7 @@
 				F3DC3FB02081E82B00791116 /* UpperTabViewController.swift in Sources */,
 				F3DC3F802081A8C700791116 /* ModelController.swift in Sources */,
 				F3DC3F7A2081A8C700791116 /* AppDelegate.swift in Sources */,
+				F33332FA20896DD5001021C0 /* CustomDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
