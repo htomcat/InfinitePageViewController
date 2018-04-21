@@ -11,17 +11,48 @@ import UIKit
 class CustomDelegate: NSObject {
     var pageController: PageViewController?
     var upperTab: UpperTabViewController?
+    var pageIndex: Int? {
+        didSet {
+            upperTab?.selectTab(at: pageIndex!)
+        }
+    }
 }
 
 extension CustomDelegate: UICollectionViewDelegate {
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        print(indexPath.row)
+
+        // Make page view scroll
         pageController?.pageViewController?.setViewControllers([(pageController?.dataSource?.pageData[indexPath.row])!],
                                                                direction: .forward,
-                                                               animated: true,
+                                                               animated: false,
                                                                completion: nil)
     }
 }
 
 extension CustomDelegate: UIPageViewControllerDelegate {
+    func pageViewController(_ pageViewController: UIPageViewController, didFinishAnimating finished: Bool, previousViewControllers: [UIViewController], transitionCompleted completed: Bool) {
+
+        guard completed else {
+            return
+        }
+
+        guard let vc = pageViewController.viewControllers?.first else {
+            return
+        }
+
+        let index: Int
+        switch vc {
+        case vc as Test1ViewController:
+            index = 0
+        case vc as Test2ViewController:
+            index = 1
+        case vc as Test3ViewController:
+            index = 2
+        default:
+            return
+        }
+        pageIndex = index
+    }
+    func pageViewController(_ pageViewController: UIPageViewController, willTransitionTo pendingViewControllers: [UIViewController]) {
+    }
 }

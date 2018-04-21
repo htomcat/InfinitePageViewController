@@ -12,6 +12,7 @@ class PageViewController: UIViewController {
 
     var pageViewController: UIPageViewController?
     var dataSource: ModelController?
+    var delegate: CustomDelegate?
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,6 +23,7 @@ class PageViewController: UIViewController {
         pageViewController!.setViewControllers([(dataSource?.pageData.first)!], direction: .forward, animated: false) { result in
         }
         pageViewController?.dataSource = dataSource
+        pageViewController?.delegate = delegate
         pageViewController?.willMove(toParentViewController: self)
         addChildViewController(pageViewController!)
         view.addSubview(pageViewController!.view)

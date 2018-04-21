@@ -37,6 +37,7 @@ class RootViewController: UIViewController {
         case let vc as PageViewController:
             vc.dataSource = dataSource
             delegate.pageController = vc
+            vc.delegate = delegate
         default:
             break
         }

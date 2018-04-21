@@ -17,7 +17,14 @@ import UIKit
  There is no need to actually create view controllers for each page in advance -- indeed doing so incurs unnecessary overhead. Given the data model, these methods create, configure, and return a new view controller on demand.
  */
 
+class Test1ViewController: UIViewController {
+}
 
+class Test2ViewController: UIViewController {
+}
+
+class Test3ViewController: UIViewController {
+}
 class ModelController: NSObject {
 
     var pageData: [UIViewController] = []
@@ -25,12 +32,14 @@ class ModelController: NSObject {
     override init() {
         super.init()
         // Create the data model.
-        let view1 = UIViewController()
+        let view1 = Test1ViewController()
         view1.view.backgroundColor = .red
-        let view2 = UIViewController()
+        let view2 = Test2ViewController()
         view2.view.backgroundColor = .yellow
-        pageData = [view1, view2]
-    }
+        let view3 = Test3ViewController()
+        view3.view.backgroundColor = .blue
+        pageData = [view1, view2, view3]
+   }
 
     /*
     func viewControllerAtIndex(_ index: Int, storyboard: UIStoryboard) -> DataViewController? {
@@ -66,16 +75,7 @@ extension ModelController: UICollectionViewDataSource {
     }
 }
 
-extension ModelController: UICollectionViewDelegate {
-    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        print(indexPath.row)
-    }
-}
-
 // MARK: - UIPageViewControllerDataSource
-extension ModelController: UIPageViewControllerDelegate {
-    
-}
 extension ModelController: UIPageViewControllerDataSource {
     func pageViewController(_ pageViewController: UIPageViewController, viewControllerBefore viewController: UIViewController) -> UIViewController? {
         
