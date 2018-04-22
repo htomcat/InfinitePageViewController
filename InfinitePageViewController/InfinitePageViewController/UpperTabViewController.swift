@@ -36,6 +36,7 @@ class UpperTabViewController: UIViewController {
     }
 
     func selectTab(at index: Int) {
-        print(index)
+        dataSource?.selectedIndex = index
+        collectionView.reloadData()
     }
 }

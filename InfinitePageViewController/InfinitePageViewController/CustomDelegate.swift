@@ -26,6 +26,9 @@ extension CustomDelegate: UICollectionViewDelegate {
                                                                direction: .forward,
                                                                animated: false,
                                                                completion: nil)
+
+        // Switch selected tab
+        upperTab?.selectTab(at: indexPath.row)
     }
 }
 
@@ -48,10 +51,14 @@ extension CustomDelegate: UIPageViewControllerDelegate {
             index = 1
         case vc as Test3ViewController:
             index = 2
+        case vc as Test4ViewController:
+            index = 3
+        case vc as Test5ViewController:
+            index = 4
         default:
             return
         }
-        pageIndex = index
+        upperTab?.selectTab(at: index)
     }
     func pageViewController(_ pageViewController: UIPageViewController, willTransitionTo pendingViewControllers: [UIViewController]) {
     }

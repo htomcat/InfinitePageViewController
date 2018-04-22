@@ -25,10 +25,16 @@ class Test2ViewController: UIViewController {
 
 class Test3ViewController: UIViewController {
 }
+
+class Test4ViewController: UIViewController {
+}
+
+class Test5ViewController: UIViewController {
+}
 class ModelController: NSObject {
 
     var pageData: [UIViewController] = []
-
+    var selectedIndex = 0
     override init() {
         super.init()
         // Create the data model.
@@ -38,7 +44,11 @@ class ModelController: NSObject {
         view2.view.backgroundColor = .yellow
         let view3 = Test3ViewController()
         view3.view.backgroundColor = .blue
-        pageData = [view1, view2, view3]
+        let view4 = Test4ViewController()
+        view4.view.backgroundColor = .white
+        let view5 = Test5ViewController()
+        view5.view.backgroundColor = .black
+        pageData = [view1, view2, view3, view4, view5]
    }
 
     /*
@@ -70,7 +80,11 @@ extension ModelController: UICollectionViewDataSource {
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "Cell", for: indexPath)
-        cell.backgroundColor = .blue
+        if indexPath.row == selectedIndex {
+            cell.backgroundColor = .red
+        } else {
+            cell.backgroundColor = .blue
+        }
         return cell
     }
 }
