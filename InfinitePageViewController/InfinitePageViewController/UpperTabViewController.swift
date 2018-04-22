@@ -9,8 +9,9 @@
 import UIKit
 
 class UpperTabViewController: UIViewController {
-    let tabsHeight: CGFloat = 60
 
+    // MARK: - Properties
+    let tabsHeight: CGFloat = 60
     private lazy var collectionView: UICollectionView = self.initCollectionView()
     var dataSource: ModelController? {
         didSet {
@@ -19,6 +20,7 @@ class UpperTabViewController: UIViewController {
     }
     var delegate: CustomDelegate?
 
+    // MARK: - View Life Cycle
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -26,6 +28,10 @@ class UpperTabViewController: UIViewController {
         view.addSubview(collectionView)
     }
 
+    // MARK: - Methods
+    /**
+     * Initialize collection view
+     */
     private func initCollectionView() -> UICollectionView {
         let layout = UICollectionViewFlowLayout()
         layout.itemSize = CGSize(width: 100, height: tabsHeight)
@@ -39,6 +45,9 @@ class UpperTabViewController: UIViewController {
         return collectionView
     }
 
+    /**
+     * call when tab is selected by user
+     */
     func selectTab(at index: Int) {
         dataSource?.selectedIndex = index
         collectionView.reloadData()
