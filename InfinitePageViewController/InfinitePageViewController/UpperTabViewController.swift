@@ -22,6 +22,7 @@ class UpperTabViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        view.backgroundColor = .white
         view.addSubview(collectionView)
     }
 
@@ -30,9 +31,11 @@ class UpperTabViewController: UIViewController {
         layout.itemSize = CGSize(width: 100, height: tabsHeight)
         layout.scrollDirection = .horizontal
         let collectionView = UICollectionView(frame: CGRect(x: 0, y: 0, width: UIScreen.main.bounds.width, height: tabsHeight), collectionViewLayout: layout)
-        collectionView.register(UICollectionViewCell.self, forCellWithReuseIdentifier: "Cell")
+        collectionView.register(UINib(nibName: "TabBarCell", bundle: nil), forCellWithReuseIdentifier: TabBarCell.identifier)
         collectionView.dataSource = dataSource
         collectionView.delegate = delegate
+        collectionView.backgroundColor = .white
+        collectionView.showsHorizontalScrollIndicator = false
         return collectionView
     }
 

@@ -18,6 +18,8 @@
 		F3DC3F932081A8C800791116 /* InfinitePageViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DC3F922081A8C800791116 /* InfinitePageViewControllerTests.swift */; };
 		F3DC3F9E2081A8C800791116 /* InfinitePageViewControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DC3F9D2081A8C800791116 /* InfinitePageViewControllerUITests.swift */; };
 		F3DC3FB02081E82B00791116 /* UpperTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DC3FAF2081E82B00791116 /* UpperTabViewController.swift */; };
+		F3EF8243208C5719009FF5A1 /* TabBarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3EF8242208C5719009FF5A1 /* TabBarCell.swift */; };
+		F3EF8245208C5745009FF5A1 /* TabBarCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3EF8244208C5745009FF5A1 /* TabBarCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,8 @@
 		F3DC3F9D2081A8C800791116 /* InfinitePageViewControllerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfinitePageViewControllerUITests.swift; sourceTree = "<group>"; };
 		F3DC3F9F2081A8C800791116 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F3DC3FAF2081E82B00791116 /* UpperTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpperTabViewController.swift; sourceTree = "<group>"; };
+		F3EF8242208C5719009FF5A1 /* TabBarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarCell.swift; sourceTree = "<group>"; };
+		F3EF8244208C5745009FF5A1 /* TabBarCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TabBarCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +119,8 @@
 				F3667DB02085823C000E0D88 /* PageViewController.swift */,
 				F34358E12086CF870054F620 /* RootViewController.swift */,
 				F33332F920896DD5001021C0 /* CustomDelegate.swift */,
+				F3EF8242208C5719009FF5A1 /* TabBarCell.swift */,
+				F3EF8244208C5745009FF5A1 /* TabBarCell.xib */,
 			);
 			path = InfinitePageViewController;
 			sourceTree = "<group>";
@@ -244,6 +250,7 @@
 				F3DC3F882081A8C800791116 /* LaunchScreen.storyboard in Resources */,
 				F3DC3F852081A8C800791116 /* Assets.xcassets in Resources */,
 				F3DC3F832081A8C700791116 /* Main.storyboard in Resources */,
+				F3EF8245208C5745009FF5A1 /* TabBarCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +277,7 @@
 			files = (
 				F34358E22086CF870054F620 /* RootViewController.swift in Sources */,
 				F3667DB12085823C000E0D88 /* PageViewController.swift in Sources */,
+				F3EF8243208C5719009FF5A1 /* TabBarCell.swift in Sources */,
 				F3DC3FB02081E82B00791116 /* UpperTabViewController.swift in Sources */,
 				F3DC3F802081A8C700791116 /* ModelController.swift in Sources */,
 				F3DC3F7A2081A8C700791116 /* AppDelegate.swift in Sources */,

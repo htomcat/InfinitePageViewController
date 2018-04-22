@@ -39,14 +39,19 @@ class ModelController: NSObject {
         super.init()
         // Create the data model.
         let view1 = Test1ViewController()
+        view1.title = "title1"
         view1.view.backgroundColor = .red
         let view2 = Test2ViewController()
+        view2.title = "title2"
         view2.view.backgroundColor = .yellow
         let view3 = Test3ViewController()
+        view3.title = "title3"
         view3.view.backgroundColor = .blue
         let view4 = Test4ViewController()
+        view4.title = "title4"
         view4.view.backgroundColor = .white
         let view5 = Test5ViewController()
+        view5.title = "title5"
         view5.view.backgroundColor = .black
         pageData = [view1, view2, view3, view4, view5]
     }
@@ -65,12 +70,14 @@ extension ModelController: UICollectionViewDataSource {
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "Cell", for: indexPath)
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: TabBarCell.identifier, for: indexPath) as! TabBarCell
         if indexPath.row == selectedIndex {
-            cell.backgroundColor = .red
+            cell.selectedLine.backgroundColor = .gray
         } else {
-            cell.backgroundColor = .blue
+            cell.selectedLine.backgroundColor = .white
         }
+        let title = pageData[indexPath.row].title
+        cell.title.text = title
         return cell
     }
 }
