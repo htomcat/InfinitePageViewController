@@ -9,6 +9,7 @@
 import UIKit
 
 class UpperTabViewController: UIViewController {
+    let tabsHeight: CGFloat = 60
 
     private lazy var collectionView: UICollectionView = self.initCollectionView()
     var dataSource: ModelController? {
@@ -26,9 +27,9 @@ class UpperTabViewController: UIViewController {
 
     private func initCollectionView() -> UICollectionView {
         let layout = UICollectionViewFlowLayout()
-        layout.itemSize = CGSize(width: 100, height: 60)
+        layout.itemSize = CGSize(width: 100, height: tabsHeight)
         layout.scrollDirection = .horizontal
-        let collectionView = UICollectionView(frame: CGRect(x: 0, y: 0, width: UIScreen.main.bounds.width, height: 60), collectionViewLayout: layout)
+        let collectionView = UICollectionView(frame: CGRect(x: 0, y: 0, width: UIScreen.main.bounds.width, height: tabsHeight), collectionViewLayout: layout)
         collectionView.register(UICollectionViewCell.self, forCellWithReuseIdentifier: "Cell")
         collectionView.dataSource = dataSource
         collectionView.delegate = delegate
