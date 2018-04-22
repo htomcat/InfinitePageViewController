@@ -43,21 +43,10 @@ extension CustomDelegate: UIPageViewControllerDelegate {
             return
         }
 
-        let index: Int
-        switch vc {
-        case vc as Test1ViewController:
-            index = 0
-        case vc as Test2ViewController:
-            index = 1
-        case vc as Test3ViewController:
-            index = 2
-        case vc as Test4ViewController:
-            index = 3
-        case vc as Test5ViewController:
-            index = 4
-        default:
+        guard let index = self.pageController?.dataSource?.indexOfViewController(vc) else {
             return
         }
+
         upperTab?.selectTab(at: index)
     }
     func pageViewController(_ pageViewController: UIPageViewController, willTransitionTo pendingViewControllers: [UIViewController]) {
