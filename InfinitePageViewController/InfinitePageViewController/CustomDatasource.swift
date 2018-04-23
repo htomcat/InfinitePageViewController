@@ -1,5 +1,5 @@
 //
-//  ModelController.swift
+//  CustomDatasource.swift
 //  InfinitePageViewController
 //
 //  Created by htomcat on 2018/04/14.
@@ -31,7 +31,7 @@ class Test4ViewController: UIViewController {
 
 class Test5ViewController: UIViewController {
 }
-class ModelController: NSObject {
+class CustomDatasource: NSObject {
 
     var pageData: [UIViewController] = []
     var selectedIndex = 0
@@ -64,7 +64,7 @@ class ModelController: NSObject {
 }
 
 // MARK: - UITableViewDatasource
-extension ModelController: UICollectionViewDataSource {
+extension CustomDatasource: UICollectionViewDataSource {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return pageData.count
     }
@@ -83,7 +83,7 @@ extension ModelController: UICollectionViewDataSource {
 }
 
 // MARK: - UIPageViewControllerDataSource
-extension ModelController: UIPageViewControllerDataSource {
+extension CustomDatasource: UIPageViewControllerDataSource {
     func pageViewController(_ pageViewController: UIPageViewController, viewControllerBefore viewController: UIViewController) -> UIViewController? {
         
         guard let viewControllerIndex = pageData.index(of: viewController) else { return nil }

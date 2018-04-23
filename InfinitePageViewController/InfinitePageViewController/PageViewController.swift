@@ -11,7 +11,7 @@ import UIKit
 class PageViewController: UIViewController {
 
     var pageViewController: UIPageViewController?
-    var dataSource: ModelController?
+    var dataSource: CustomDatasource?
     var delegate: CustomDelegate?
 
     override func viewDidLoad() {

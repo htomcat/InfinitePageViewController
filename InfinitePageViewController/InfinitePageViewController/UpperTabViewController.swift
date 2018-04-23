@@ -13,7 +13,7 @@ class UpperTabViewController: UIViewController {
     // MARK: - Properties
     let tabsHeight: CGFloat = 60
     private lazy var collectionView: UICollectionView = self.initCollectionView()
-    var dataSource: ModelController? {
+    var dataSource: CustomDatasource? {
         didSet {
             collectionView.reloadData()
         }

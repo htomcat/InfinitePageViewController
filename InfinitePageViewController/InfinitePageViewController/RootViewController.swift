@@ -10,7 +10,7 @@ import UIKit
 
 class RootViewController: UIViewController {
 
-    let dataSource = ModelController()
+    let dataSource = CustomDatasource()
     let delegate = CustomDelegate()
 
     override func viewDidLoad() {
