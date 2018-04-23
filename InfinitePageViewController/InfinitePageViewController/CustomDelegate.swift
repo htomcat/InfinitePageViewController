@@ -22,7 +22,7 @@ extension CustomDelegate: UICollectionViewDelegate {
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
 
         // Make page view scroll
-        pageController?.pageViewController?.setViewControllers([(pageController?.dataSource?.pageData[indexPath.row])!],
+        pageController?.pageViewController?.setViewControllers([(pageController?.dataSource?.pages[indexPath.row])!],
                                                                direction: .forward,
                                                                animated: false,
                                                                completion: nil)

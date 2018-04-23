@@ -31,9 +31,14 @@ class Test4ViewController: UIViewController {
 
 class Test5ViewController: UIViewController {
 }
-class CustomDatasource: NSObject {
 
-    var pageData: [UIViewController] = []
+protocol InifitePageViewDatasource {
+    var pages: [UIViewController] { set get }
+}
+
+class CustomDatasource: NSObject, InifitePageViewDatasource {
+
+    var pages: [UIViewController] = []
     var selectedIndex = 0
     override init() {
         super.init()
@@ -53,20 +58,20 @@ class CustomDatasource: NSObject {
         let view5 = Test5ViewController()
         view5.title = "title5"
         view5.view.backgroundColor = .black
-        pageData = [view1, view2, view3, view4, view5]
+        pages = [view1, view2, view3, view4, view5]
     }
 
     func indexOfViewController(_ viewController: UIViewController) -> Int {
         // Return the index of the given data view controller.
         // For simplicity, this implementation uses a static array of model objects and the view controller stores the model object; you can therefore use the model object to identify the index.
-        return pageData.index(of: viewController) ?? NSNotFound
+        return pages.index(of: viewController) ?? NSNotFound
     }
 }
 
 // MARK: - UITableViewDatasource
 extension CustomDatasource: UICollectionViewDataSource {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return pageData.count
+        return pages.count
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
@@ -76,7 +81,7 @@ extension CustomDatasource: UICollectionViewDataSource {
         } else {
             cell.selectedLine.backgroundColor = .white
         }
-        let title = pageData[indexPath.row].title
+        let title = pages[indexPath.row].title
         cell.title.text = title
         return cell
     }
@@ -86,27 +91,27 @@ extension CustomDatasource: UICollectionViewDataSource {
 extension CustomDatasource: UIPageViewControllerDataSource {
     func pageViewController(_ pageViewController: UIPageViewController, viewControllerBefore viewController: UIViewController) -> UIViewController? {
         
-        guard let viewControllerIndex = pageData.index(of: viewController) else { return nil }
+        guard let viewControllerIndex = pages.index(of: viewController) else { return nil }
         
         let previousIndex = viewControllerIndex - 1
         
-        guard previousIndex >= 0 else { return pageData.last }
+        guard previousIndex >= 0 else { return pages.last }
         
-        guard pageData.count > previousIndex else { return nil        }
+        guard pages.count > previousIndex else { return nil        }
         
-        return pageData[previousIndex]
+        return pages[previousIndex]
     }
     
     func pageViewController(_ pageViewController: UIPageViewController, viewControllerAfter viewController: UIViewController) -> UIViewController?
     {
-        guard let viewControllerIndex = pageData.index(of: viewController) else { return nil }
+        guard let viewControllerIndex = pages.index(of: viewController) else { return nil }
         
         let nextIndex = viewControllerIndex + 1
         
-        guard nextIndex < pageData.count else { return pageData.first }
+        guard nextIndex < pages.count else { return pages.first }
         
-        guard pageData.count > nextIndex else { return nil }
+        guard pages.count > nextIndex else { return nil }
         
-        return pageData[nextIndex]
+        return pages[nextIndex]
     }
 }

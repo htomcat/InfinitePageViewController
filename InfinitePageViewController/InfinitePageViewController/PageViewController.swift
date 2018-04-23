@@ -20,7 +20,7 @@ class PageViewController: UIViewController {
         pageViewController = UIPageViewController(transitionStyle: .scroll,
                                                   navigationOrientation: .horizontal,
                                                   options: nil)
-        pageViewController!.setViewControllers([(dataSource?.pageData.first)!], direction: .forward, animated: false) { result in
+        pageViewController!.setViewControllers([(dataSource?.pages.first)!], direction: .forward, animated: false) { result in
         }
         pageViewController?.dataSource = dataSource
         pageViewController?.delegate = delegate
