@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		F33332FA20896DD5001021C0 /* CustomDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33332F920896DD5001021C0 /* CustomDelegate.swift */; };
 		F34358E22086CF870054F620 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34358E12086CF870054F620 /* RootViewController.swift */; };
+		F35769FC208EB4A0001BD405 /* EntityGateway.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35769FB208EB4A0001BD405 /* EntityGateway.swift */; };
+		F35769FE208EB558001BD405 /* PagesRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35769FD208EB558001BD405 /* PagesRepository.swift */; };
 		F3667DB12085823C000E0D88 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3667DB02085823C000E0D88 /* PageViewController.swift */; };
 		F3DC3F7A2081A8C700791116 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DC3F792081A8C700791116 /* AppDelegate.swift */; };
 		F3DC3F802081A8C700791116 /* CustomDatasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DC3F7F2081A8C700791116 /* CustomDatasource.swift */; };
@@ -42,6 +44,8 @@
 /* Begin PBXFileReference section */
 		F33332F920896DD5001021C0 /* CustomDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDelegate.swift; sourceTree = "<group>"; };
 		F34358E12086CF870054F620 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		F35769FB208EB4A0001BD405 /* EntityGateway.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntityGateway.swift; sourceTree = "<group>"; };
+		F35769FD208EB558001BD405 /* PagesRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagesRepository.swift; sourceTree = "<group>"; };
 		F3667DB02085823C000E0D88 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 		F3DC3F762081A8C700791116 /* InfinitePageViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InfinitePageViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3DC3F792081A8C700791116 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -121,6 +125,8 @@
 				F33332F920896DD5001021C0 /* CustomDelegate.swift */,
 				F3EF8242208C5719009FF5A1 /* TabBarCell.swift */,
 				F3EF8244208C5745009FF5A1 /* TabBarCell.xib */,
+				F35769FB208EB4A0001BD405 /* EntityGateway.swift */,
+				F35769FD208EB558001BD405 /* PagesRepository.swift */,
 			);
 			path = InfinitePageViewController;
 			sourceTree = "<group>";
@@ -278,8 +284,10 @@
 				F34358E22086CF870054F620 /* RootViewController.swift in Sources */,
 				F3667DB12085823C000E0D88 /* PageViewController.swift in Sources */,
 				F3EF8243208C5719009FF5A1 /* TabBarCell.swift in Sources */,
+				F35769FE208EB558001BD405 /* PagesRepository.swift in Sources */,
 				F3DC3FB02081E82B00791116 /* UpperTabViewController.swift in Sources */,
 				F3DC3F802081A8C700791116 /* CustomDatasource.swift in Sources */,
+				F35769FC208EB4A0001BD405 /* EntityGateway.swift in Sources */,
 				F3DC3F7A2081A8C700791116 /* AppDelegate.swift in Sources */,
 				F33332FA20896DD5001021C0 /* CustomDelegate.swift in Sources */,
 			);

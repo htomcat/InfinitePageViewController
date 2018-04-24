@@ -34,6 +34,7 @@ class Test5ViewController: UIViewController {
 
 protocol InifitePageViewDatasource {
     var pages: [UIViewController] { set get }
+    var selectedIndex: Int { set get }
 }
 
 class CustomDatasource: NSObject, InifitePageViewDatasource {
