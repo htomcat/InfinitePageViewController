@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="jQI-gK-2fI">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="UNu-Rw-Qp2">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -50,16 +50,48 @@
             </objects>
             <point key="canvasLocation" x="3506" y="-957"/>
         </scene>
+        <!--Test View Controller-->
+        <scene sceneID="14a-84-w9X">
+            <objects>
+                <viewController id="iNm-b5-6X1" customClass="TestViewController" customModule="InfinitePageViewController" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Pzc-UG-fhq">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oUz-fJ-Nsj">
+                                <rect key="frame" x="164" y="318.5" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="button:" destination="iNm-b5-6X1" eventType="touchUpInside" id="ea2-dG-ppR"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="oUz-fJ-Nsj" firstAttribute="centerY" secondItem="Pzc-UG-fhq" secondAttribute="centerY" id="91P-Gx-lt1"/>
+                            <constraint firstItem="oUz-fJ-Nsj" firstAttribute="centerX" secondItem="Pzc-UG-fhq" secondAttribute="centerX" id="j6q-2c-RP8"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="T6J-tc-W0E"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="8sC-Np-Czt"/>
+                    <connections>
+                        <outlet property="button" destination="oUz-fJ-Nsj" id="81x-FZ-mfN"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="X07-KG-cOo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5636" y="-896.40179910044981"/>
+        </scene>
         <!--Root View Controller-->
         <scene sceneID="re7-GC-l13">
             <objects>
-                <viewController id="pLM-0B-wIO" customClass="RootViewController" customModule="InfinitePageViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="RootViewController" id="pLM-0B-wIO" customClass="RootViewController" customModule="InfinitePageViewController" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="7FR-ho-rP1">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Qmi-Lt-RLs">
-                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
                                 <subviews>
                                     <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fdc-SG-Hcc">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="60"/>
@@ -71,7 +103,7 @@
                                         </connections>
                                     </containerView>
                                     <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="g1t-X7-LcT">
-                                        <rect key="frame" x="0.0" y="60" width="375" height="543"/>
+                                        <rect key="frame" x="0.0" y="60" width="375" height="587"/>
                                         <connections>
                                             <segue destination="6Z9-Wx-w5W" kind="embed" id="YY0-G9-2Np"/>
                                         </connections>
@@ -124,7 +156,7 @@
             <objects>
                 <viewController id="6Z9-Wx-w5W" customClass="PageViewController" customModule="InfinitePageViewController" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="xYn-t3-APc">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="543"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="587"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="mp5-AP-bsm"/>
@@ -135,22 +167,22 @@
             <point key="canvasLocation" x="5016.8000000000002" y="-102.09895052473765"/>
         </scene>
         <!--Navigation Controller-->
-        <scene sceneID="EAQ-uu-Wwa">
+        <scene sceneID="z58-KS-CfI">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="jQI-gK-2fI" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="UNu-Rw-Qp2" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="f7p-bq-QGY">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="qqI-ft-h4Q">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="pLM-0B-wIO" kind="relationship" relationship="rootViewController" id="sIl-FG-lir"/>
+                        <segue destination="iNm-b5-6X1" kind="relationship" relationship="rootViewController" id="VUt-qc-JsI"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="lqx-Hi-sCz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Rnq-10-qPV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3072.8000000000002" y="-164.16791604197903"/>
+            <point key="canvasLocation" x="4696.8000000000002" y="-896.40179910044981"/>
         </scene>
     </scenes>
 </document>

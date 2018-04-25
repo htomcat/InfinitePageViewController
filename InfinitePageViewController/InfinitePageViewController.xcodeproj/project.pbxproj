@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F320A9C720901524006EDBA1 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F320A9C620901524006EDBA1 /* TestViewController.swift */; };
 		F33332FA20896DD5001021C0 /* CustomDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33332F920896DD5001021C0 /* CustomDelegate.swift */; };
 		F34358E22086CF870054F620 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34358E12086CF870054F620 /* RootViewController.swift */; };
 		F35769FC208EB4A0001BD405 /* EntityGateway.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35769FB208EB4A0001BD405 /* EntityGateway.swift */; };
@@ -42,6 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F320A9C620901524006EDBA1 /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
 		F33332F920896DD5001021C0 /* CustomDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDelegate.swift; sourceTree = "<group>"; };
 		F34358E12086CF870054F620 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 		F35769FB208EB4A0001BD405 /* EntityGateway.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntityGateway.swift; sourceTree = "<group>"; };
@@ -127,6 +129,7 @@
 				F3EF8244208C5745009FF5A1 /* TabBarCell.xib */,
 				F35769FB208EB4A0001BD405 /* EntityGateway.swift */,
 				F35769FD208EB558001BD405 /* PagesRepository.swift */,
+				F320A9C620901524006EDBA1 /* TestViewController.swift */,
 			);
 			path = InfinitePageViewController;
 			sourceTree = "<group>";
@@ -281,6 +284,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F320A9C720901524006EDBA1 /* TestViewController.swift in Sources */,
 				F34358E22086CF870054F620 /* RootViewController.swift in Sources */,
 				F3667DB12085823C000E0D88 /* PageViewController.swift in Sources */,
 				F3EF8243208C5719009FF5A1 /* TabBarCell.swift in Sources */,
