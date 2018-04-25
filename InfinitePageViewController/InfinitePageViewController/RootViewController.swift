@@ -10,9 +10,19 @@ import UIKit
 
 class RootViewController: UIViewController {
 
-    let dataSource = CustomDatasource()
+    let dataSource: CustomDatasource
     let delegate = CustomDelegate()
 
+    init(viewControllers: [UIViewController]) {
+        let repository = PagesRepository(pages: viewControllers)
+        dataSource = CustomDatasource(repository: repository)
+        super.init(nibName: nil, bundle: nil)
+    }
+
+    required init?(coder aDecoder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

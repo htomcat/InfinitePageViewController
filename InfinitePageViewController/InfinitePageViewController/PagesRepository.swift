@@ -10,7 +10,7 @@ import Foundation
 import UIKit
 
 class PagesRepository {
-    var pages: [UIViewController]
+    private var pages: [UIViewController]
 
     init(pages: [UIViewController]) {
         self.pages = pages

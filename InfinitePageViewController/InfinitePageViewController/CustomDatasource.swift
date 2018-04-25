@@ -41,25 +41,9 @@ class CustomDatasource: NSObject, InifitePageViewDatasource {
 
     var pages: [UIViewController] = []
     var selectedIndex = 0
-    override init() {
-        super.init()
-        // Create the data model.
-        let view1 = Test1ViewController()
-        view1.title = "title1"
-        view1.view.backgroundColor = .red
-        let view2 = Test2ViewController()
-        view2.title = "title2"
-        view2.view.backgroundColor = .yellow
-        let view3 = Test3ViewController()
-        view3.title = "title3"
-        view3.view.backgroundColor = .blue
-        let view4 = Test4ViewController()
-        view4.title = "title4"
-        view4.view.backgroundColor = .white
-        let view5 = Test5ViewController()
-        view5.title = "title5"
-        view5.view.backgroundColor = .black
-        pages = [view1, view2, view3, view4, view5]
+
+    init(repository: PagesRepository) {
+        pages = repository.fetchPages()
     }
 
     func indexOfViewController(_ viewController: UIViewController) -> Int {
