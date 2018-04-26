@@ -52,4 +52,12 @@ class UpperTabViewController: UIViewController {
         dataSource?.selectedIndex = index
         collectionView.reloadData()
     }
+
+    /**
+     * centralize tab's postion
+     */
+    func centralize(at row: Int) {
+        let indexPath = IndexPath(row: row, section: 0)
+        collectionView.scrollToItem(at: indexPath, at: .centeredHorizontally, animated: true)
+    }
 }

@@ -29,6 +29,9 @@ extension CustomDelegate: UICollectionViewDelegate {
 
         // Switch selected tab
         upperTab?.selectTab(at: indexPath.row)
+
+        // Centralize tab's postion
+        upperTab?.centralize(at: indexPath.row)
     }
 }
 
@@ -47,7 +50,11 @@ extension CustomDelegate: UIPageViewControllerDelegate {
             return
         }
 
+        // Switch selected tab
         upperTab?.selectTab(at: index)
+
+        // Centralize tab's postion
+        upperTab?.centralize(at: index)
     }
     func pageViewController(_ pageViewController: UIPageViewController, willTransitionTo pendingViewControllers: [UIViewController]) {
     }
