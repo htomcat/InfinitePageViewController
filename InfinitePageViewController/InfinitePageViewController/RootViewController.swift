@@ -13,6 +13,11 @@ class RootViewController: UIViewController {
     var dataSource: CustomDatasource?
     let delegate = CustomDelegate()
 
+    static func makeInstance() -> RootViewController {
+       let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "RootViewController") as! RootViewController
+        return vc
+    }
+
     func setPages(_ viewControllers: [UIViewController]) {
         let repository = PagesRepository(pages: viewControllers)
         dataSource = CustomDatasource(repository: repository)

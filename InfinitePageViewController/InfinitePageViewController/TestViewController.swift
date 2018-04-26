@@ -11,7 +11,7 @@ import UIKit
 class TestViewController: UIViewController {
 
     @IBAction func button(_ sender: Any) {
-        let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "RootViewController") as! RootViewController
+        let vc = RootViewController.makeInstance()
         let view1 = Test1ViewController()
         view1.title = "title1"
         view1.view.backgroundColor = .red
