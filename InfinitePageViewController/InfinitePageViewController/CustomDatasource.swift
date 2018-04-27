@@ -17,21 +17,6 @@ import UIKit
  There is no need to actually create view controllers for each page in advance -- indeed doing so incurs unnecessary overhead. Given the data model, these methods create, configure, and return a new view controller on demand.
  */
 
-class Test1ViewController: UIViewController {
-}
-
-class Test2ViewController: UIViewController {
-}
-
-class Test3ViewController: UIViewController {
-}
-
-class Test4ViewController: UIViewController {
-}
-
-class Test5ViewController: UIViewController {
-}
-
 protocol InifitePageViewDatasource {
     var pages: [UIViewController] { set get }
     var selectedIndex: Int { set get }

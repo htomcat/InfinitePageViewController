@@ -7,6 +7,21 @@
 //
 
 import UIKit
+class Test1ViewController: UIViewController {
+}
+
+class Test2ViewController: UIViewController {
+}
+
+class Test3ViewController: UIViewController {
+}
+
+class Test4ViewController: UIViewController {
+}
+
+class Test5ViewController: UIViewController {
+}
+
 
 class TestViewController: UIViewController {
 
