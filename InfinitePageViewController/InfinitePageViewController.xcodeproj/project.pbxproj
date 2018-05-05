@@ -155,16 +155,11 @@
 		F3478D93209D8D9600622329 /* THFlexiblePageController */ = {
 			isa = PBXGroup;
 			children = (
-				F3EF8242208C5719009FF5A1 /* TabBarCell.swift */,
-				F3EF8244208C5745009FF5A1 /* TabBarCell.xib */,
-				F35769FB208EB4A0001BD405 /* EntityGateway.swift */,
-				F35769FD208EB558001BD405 /* PagesRepository.swift */,
-				F33332F920896DD5001021C0 /* CustomDelegate.swift */,
-				F34358E12086CF870054F620 /* RootViewController.swift */,
-				F3667DB02085823C000E0D88 /* PageViewController.swift */,
-				F3DC3FAF2081E82B00791116 /* UpperTabViewController.swift */,
-				F3DC3F7F2081A8C700791116 /* CustomDatasource.swift */,
-				F3DC3F812081A8C700791116 /* Main.storyboard */,
+				F3478DBE209DA75200622329 /* App */,
+				F3478DBD209DA73400622329 /* Repository */,
+				F3478DBC209DA70200622329 /* Delegate */,
+				F3478DBB209DA6CC00622329 /* Datasource */,
+				F3478DBA209DA28900622329 /* View */,
 				F3478D94209D8D9600622329 /* THFlexiblePageController.h */,
 				F3478D95209D8D9600622329 /* Info.plist */,
 			);
@@ -178,6 +173,51 @@
 				F3478DA3209D8D9600622329 /* Info.plist */,
 			);
 			path = THFlexiblePageControllerTests;
+			sourceTree = "<group>";
+		};
+		F3478DBA209DA28900622329 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F3DC3F812081A8C700791116 /* Main.storyboard */,
+				F3EF8242208C5719009FF5A1 /* TabBarCell.swift */,
+				F3EF8244208C5745009FF5A1 /* TabBarCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F3478DBB209DA6CC00622329 /* Datasource */ = {
+			isa = PBXGroup;
+			children = (
+				F3DC3F7F2081A8C700791116 /* CustomDatasource.swift */,
+			);
+			path = Datasource;
+			sourceTree = "<group>";
+		};
+		F3478DBC209DA70200622329 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				F33332F920896DD5001021C0 /* CustomDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		F3478DBD209DA73400622329 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				F35769FB208EB4A0001BD405 /* EntityGateway.swift */,
+				F35769FD208EB558001BD405 /* PagesRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		F3478DBE209DA75200622329 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				F34358E12086CF870054F620 /* RootViewController.swift */,
+				F3667DB02085823C000E0D88 /* PageViewController.swift */,
+				F3DC3FAF2081E82B00791116 /* UpperTabViewController.swift */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 		F3DC3F6D2081A8C700791116 = {
