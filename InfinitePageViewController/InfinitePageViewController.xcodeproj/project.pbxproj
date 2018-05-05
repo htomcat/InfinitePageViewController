@@ -7,25 +7,50 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F320A9C720901524006EDBA1 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F320A9C620901524006EDBA1 /* TestViewController.swift */; };
-		F33332FA20896DD5001021C0 /* CustomDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33332F920896DD5001021C0 /* CustomDelegate.swift */; };
-		F34358E22086CF870054F620 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34358E12086CF870054F620 /* RootViewController.swift */; };
-		F35769FC208EB4A0001BD405 /* EntityGateway.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35769FB208EB4A0001BD405 /* EntityGateway.swift */; };
-		F35769FE208EB558001BD405 /* PagesRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35769FD208EB558001BD405 /* PagesRepository.swift */; };
-		F3667DB12085823C000E0D88 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3667DB02085823C000E0D88 /* PageViewController.swift */; };
+		F3478D9B209D8D9600622329 /* THFlexiblePageController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3478D92209D8D9600622329 /* THFlexiblePageController.framework */; };
+		F3478DA2209D8D9600622329 /* THFlexiblePageControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3478DA1209D8D9600622329 /* THFlexiblePageControllerTests.swift */; };
+		F3478DA4209D8D9600622329 /* THFlexiblePageController.h in Headers */ = {isa = PBXBuildFile; fileRef = F3478D94209D8D9600622329 /* THFlexiblePageController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F3478DA7209D8D9600622329 /* THFlexiblePageController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3478D92209D8D9600622329 /* THFlexiblePageController.framework */; };
+		F3478DA8209D8D9600622329 /* THFlexiblePageController.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F3478D92209D8D9600622329 /* THFlexiblePageController.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F3478DB0209D8E5600622329 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3DC3F812081A8C700791116 /* Main.storyboard */; };
+		F3478DB1209D8EBE00622329 /* CustomDatasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DC3F7F2081A8C700791116 /* CustomDatasource.swift */; };
+		F3478DB2209D8ECB00622329 /* UpperTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DC3FAF2081E82B00791116 /* UpperTabViewController.swift */; };
+		F3478DB3209D8ED200622329 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3667DB02085823C000E0D88 /* PageViewController.swift */; };
+		F3478DB4209D8EDA00622329 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34358E12086CF870054F620 /* RootViewController.swift */; };
+		F3478DB5209D8EE200622329 /* CustomDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33332F920896DD5001021C0 /* CustomDelegate.swift */; };
+		F3478DB6209D8EE900622329 /* TabBarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3EF8242208C5719009FF5A1 /* TabBarCell.swift */; };
+		F3478DB7209D8EEF00622329 /* TabBarCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3EF8244208C5745009FF5A1 /* TabBarCell.xib */; };
+		F3478DB8209D8EF500622329 /* EntityGateway.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35769FB208EB4A0001BD405 /* EntityGateway.swift */; };
+		F3478DB9209D8EF800622329 /* PagesRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35769FD208EB558001BD405 /* PagesRepository.swift */; };
 		F3DC3F7A2081A8C700791116 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DC3F792081A8C700791116 /* AppDelegate.swift */; };
-		F3DC3F802081A8C700791116 /* CustomDatasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DC3F7F2081A8C700791116 /* CustomDatasource.swift */; };
-		F3DC3F832081A8C700791116 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3DC3F812081A8C700791116 /* Main.storyboard */; };
 		F3DC3F852081A8C800791116 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3DC3F842081A8C800791116 /* Assets.xcassets */; };
 		F3DC3F882081A8C800791116 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3DC3F862081A8C800791116 /* LaunchScreen.storyboard */; };
 		F3DC3F932081A8C800791116 /* InfinitePageViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DC3F922081A8C800791116 /* InfinitePageViewControllerTests.swift */; };
 		F3DC3F9E2081A8C800791116 /* InfinitePageViewControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DC3F9D2081A8C800791116 /* InfinitePageViewControllerUITests.swift */; };
-		F3DC3FB02081E82B00791116 /* UpperTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DC3FAF2081E82B00791116 /* UpperTabViewController.swift */; };
-		F3EF8243208C5719009FF5A1 /* TabBarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3EF8242208C5719009FF5A1 /* TabBarCell.swift */; };
-		F3EF8245208C5745009FF5A1 /* TabBarCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3EF8244208C5745009FF5A1 /* TabBarCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		F3478D9C209D8D9600622329 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3DC3F6E2081A8C700791116 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F3478D91209D8D9600622329;
+			remoteInfo = THFlexiblePageController;
+		};
+		F3478D9E209D8D9600622329 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3DC3F6E2081A8C700791116 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F3DC3F752081A8C700791116;
+			remoteInfo = InfinitePageViewController;
+		};
+		F3478DA5209D8D9600622329 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3DC3F6E2081A8C700791116 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F3478D91209D8D9600622329;
+			remoteInfo = THFlexiblePageController;
+		};
 		F3DC3F8F2081A8C800791116 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = F3DC3F6E2081A8C700791116 /* Project object */;
@@ -42,10 +67,29 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		F3478DAE209D8D9600622329 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				F3478DA8209D8D9600622329 /* THFlexiblePageController.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		F320A9C620901524006EDBA1 /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
 		F33332F920896DD5001021C0 /* CustomDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDelegate.swift; sourceTree = "<group>"; };
 		F34358E12086CF870054F620 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		F3478D92209D8D9600622329 /* THFlexiblePageController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = THFlexiblePageController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3478D94209D8D9600622329 /* THFlexiblePageController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = THFlexiblePageController.h; sourceTree = "<group>"; };
+		F3478D95209D8D9600622329 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3478D9A209D8D9600622329 /* THFlexiblePageControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = THFlexiblePageControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3478DA1209D8D9600622329 /* THFlexiblePageControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = THFlexiblePageControllerTests.swift; sourceTree = "<group>"; };
+		F3478DA3209D8D9600622329 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F35769FB208EB4A0001BD405 /* EntityGateway.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntityGateway.swift; sourceTree = "<group>"; };
 		F35769FD208EB558001BD405 /* PagesRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagesRepository.swift; sourceTree = "<group>"; };
 		F3667DB02085823C000E0D88 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
@@ -68,10 +112,26 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		F3478D8E209D8D9600622329 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3478D97209D8D9600622329 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3478D9B209D8D9600622329 /* THFlexiblePageController.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F3DC3F732081A8C700791116 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3478DA7209D8D9600622329 /* THFlexiblePageController.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,12 +152,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F3478D93209D8D9600622329 /* THFlexiblePageController */ = {
+			isa = PBXGroup;
+			children = (
+				F3EF8242208C5719009FF5A1 /* TabBarCell.swift */,
+				F3EF8244208C5745009FF5A1 /* TabBarCell.xib */,
+				F35769FB208EB4A0001BD405 /* EntityGateway.swift */,
+				F35769FD208EB558001BD405 /* PagesRepository.swift */,
+				F33332F920896DD5001021C0 /* CustomDelegate.swift */,
+				F34358E12086CF870054F620 /* RootViewController.swift */,
+				F3667DB02085823C000E0D88 /* PageViewController.swift */,
+				F3DC3FAF2081E82B00791116 /* UpperTabViewController.swift */,
+				F3DC3F7F2081A8C700791116 /* CustomDatasource.swift */,
+				F3DC3F812081A8C700791116 /* Main.storyboard */,
+				F3478D94209D8D9600622329 /* THFlexiblePageController.h */,
+				F3478D95209D8D9600622329 /* Info.plist */,
+			);
+			path = THFlexiblePageController;
+			sourceTree = "<group>";
+		};
+		F3478DA0209D8D9600622329 /* THFlexiblePageControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				F3478DA1209D8D9600622329 /* THFlexiblePageControllerTests.swift */,
+				F3478DA3209D8D9600622329 /* Info.plist */,
+			);
+			path = THFlexiblePageControllerTests;
+			sourceTree = "<group>";
+		};
 		F3DC3F6D2081A8C700791116 = {
 			isa = PBXGroup;
 			children = (
 				F3DC3F782081A8C700791116 /* InfinitePageViewController */,
 				F3DC3F912081A8C800791116 /* InfinitePageViewControllerTests */,
 				F3DC3F9C2081A8C800791116 /* InfinitePageViewControllerUITests */,
+				F3478D93209D8D9600622329 /* THFlexiblePageController */,
+				F3478DA0209D8D9600622329 /* THFlexiblePageControllerTests */,
 				F3DC3F772081A8C700791116 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -108,6 +198,8 @@
 				F3DC3F762081A8C700791116 /* InfinitePageViewController.app */,
 				F3DC3F8E2081A8C800791116 /* InfinitePageViewControllerTests.xctest */,
 				F3DC3F992081A8C800791116 /* InfinitePageViewControllerUITests.xctest */,
+				F3478D92209D8D9600622329 /* THFlexiblePageController.framework */,
+				F3478D9A209D8D9600622329 /* THFlexiblePageControllerTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -116,20 +208,9 @@
 			isa = PBXGroup;
 			children = (
 				F3DC3F792081A8C700791116 /* AppDelegate.swift */,
-				F3DC3F7F2081A8C700791116 /* CustomDatasource.swift */,
-				F3DC3F812081A8C700791116 /* Main.storyboard */,
 				F3DC3F842081A8C800791116 /* Assets.xcassets */,
 				F3DC3F862081A8C800791116 /* LaunchScreen.storyboard */,
 				F3DC3F892081A8C800791116 /* Info.plist */,
-				F3DC3FAF2081E82B00791116 /* UpperTabViewController.swift */,
-				F3667DB02085823C000E0D88 /* PageViewController.swift */,
-				F34358E12086CF870054F620 /* RootViewController.swift */,
-				F33332F920896DD5001021C0 /* CustomDelegate.swift */,
-				F3EF8242208C5719009FF5A1 /* TabBarCell.swift */,
-				F3EF8244208C5745009FF5A1 /* TabBarCell.xib */,
-				F35769FB208EB4A0001BD405 /* EntityGateway.swift */,
-				F35769FD208EB558001BD405 /* PagesRepository.swift */,
-				F320A9C620901524006EDBA1 /* TestViewController.swift */,
 			);
 			path = InfinitePageViewController;
 			sourceTree = "<group>";
@@ -154,7 +235,55 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		F3478D8F209D8D9600622329 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3478DA4209D8D9600622329 /* THFlexiblePageController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
+		F3478D91209D8D9600622329 /* THFlexiblePageController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3478DAD209D8D9600622329 /* Build configuration list for PBXNativeTarget "THFlexiblePageController" */;
+			buildPhases = (
+				F3478D8D209D8D9600622329 /* Sources */,
+				F3478D8E209D8D9600622329 /* Frameworks */,
+				F3478D8F209D8D9600622329 /* Headers */,
+				F3478D90209D8D9600622329 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = THFlexiblePageController;
+			productName = THFlexiblePageController;
+			productReference = F3478D92209D8D9600622329 /* THFlexiblePageController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F3478D99209D8D9600622329 /* THFlexiblePageControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3478DAF209D8D9600622329 /* Build configuration list for PBXNativeTarget "THFlexiblePageControllerTests" */;
+			buildPhases = (
+				F3478D96209D8D9600622329 /* Sources */,
+				F3478D97209D8D9600622329 /* Frameworks */,
+				F3478D98209D8D9600622329 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3478D9D209D8D9600622329 /* PBXTargetDependency */,
+				F3478D9F209D8D9600622329 /* PBXTargetDependency */,
+			);
+			name = THFlexiblePageControllerTests;
+			productName = THFlexiblePageControllerTests;
+			productReference = F3478D9A209D8D9600622329 /* THFlexiblePageControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		F3DC3F752081A8C700791116 /* InfinitePageViewController */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F3DC3FA22081A8C800791116 /* Build configuration list for PBXNativeTarget "InfinitePageViewController" */;
@@ -162,10 +291,12 @@
 				F3DC3F722081A8C700791116 /* Sources */,
 				F3DC3F732081A8C700791116 /* Frameworks */,
 				F3DC3F742081A8C700791116 /* Resources */,
+				F3478DAE209D8D9600622329 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				F3478DA6209D8D9600622329 /* PBXTargetDependency */,
 			);
 			name = InfinitePageViewController;
 			productName = InfinitePageViewController;
@@ -218,6 +349,13 @@
 				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = htomcat;
 				TargetAttributes = {
+					F3478D91209D8D9600622329 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					F3478D99209D8D9600622329 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = F3DC3F752081A8C700791116;
+					};
 					F3DC3F752081A8C700791116 = {
 						CreatedOnToolsVersion = 9.3;
 					};
@@ -247,19 +385,35 @@
 				F3DC3F752081A8C700791116 /* InfinitePageViewController */,
 				F3DC3F8D2081A8C800791116 /* InfinitePageViewControllerTests */,
 				F3DC3F982081A8C800791116 /* InfinitePageViewControllerUITests */,
+				F3478D91209D8D9600622329 /* THFlexiblePageController */,
+				F3478D99209D8D9600622329 /* THFlexiblePageControllerTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		F3478D90209D8D9600622329 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3478DB0209D8E5600622329 /* Main.storyboard in Resources */,
+				F3478DB7209D8EEF00622329 /* TabBarCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3478D98209D8D9600622329 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F3DC3F742081A8C700791116 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				F3DC3F882081A8C800791116 /* LaunchScreen.storyboard in Resources */,
 				F3DC3F852081A8C800791116 /* Assets.xcassets in Resources */,
-				F3DC3F832081A8C700791116 /* Main.storyboard in Resources */,
-				F3EF8245208C5745009FF5A1 /* TabBarCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,20 +434,34 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		F3478D8D209D8D9600622329 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3478DB9209D8EF800622329 /* PagesRepository.swift in Sources */,
+				F3478DB3209D8ED200622329 /* PageViewController.swift in Sources */,
+				F3478DB6209D8EE900622329 /* TabBarCell.swift in Sources */,
+				F3478DB8209D8EF500622329 /* EntityGateway.swift in Sources */,
+				F3478DB1209D8EBE00622329 /* CustomDatasource.swift in Sources */,
+				F3478DB5209D8EE200622329 /* CustomDelegate.swift in Sources */,
+				F3478DB4209D8EDA00622329 /* RootViewController.swift in Sources */,
+				F3478DB2209D8ECB00622329 /* UpperTabViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3478D96209D8D9600622329 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3478DA2209D8D9600622329 /* THFlexiblePageControllerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F3DC3F722081A8C700791116 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F320A9C720901524006EDBA1 /* TestViewController.swift in Sources */,
-				F34358E22086CF870054F620 /* RootViewController.swift in Sources */,
-				F3667DB12085823C000E0D88 /* PageViewController.swift in Sources */,
-				F3EF8243208C5719009FF5A1 /* TabBarCell.swift in Sources */,
-				F35769FE208EB558001BD405 /* PagesRepository.swift in Sources */,
-				F3DC3FB02081E82B00791116 /* UpperTabViewController.swift in Sources */,
-				F3DC3F802081A8C700791116 /* CustomDatasource.swift in Sources */,
-				F35769FC208EB4A0001BD405 /* EntityGateway.swift in Sources */,
 				F3DC3F7A2081A8C700791116 /* AppDelegate.swift in Sources */,
-				F33332FA20896DD5001021C0 /* CustomDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,6 +484,21 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		F3478D9D209D8D9600622329 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F3478D91209D8D9600622329 /* THFlexiblePageController */;
+			targetProxy = F3478D9C209D8D9600622329 /* PBXContainerItemProxy */;
+		};
+		F3478D9F209D8D9600622329 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F3DC3F752081A8C700791116 /* InfinitePageViewController */;
+			targetProxy = F3478D9E209D8D9600622329 /* PBXContainerItemProxy */;
+		};
+		F3478DA6209D8D9600622329 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F3478D91209D8D9600622329 /* THFlexiblePageController */;
+			targetProxy = F3478DA5209D8D9600622329 /* PBXContainerItemProxy */;
+		};
 		F3DC3F902081A8C800791116 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = F3DC3F752081A8C700791116 /* InfinitePageViewController */;
@@ -348,6 +531,98 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		F3478DA9209D8D9600622329 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = THFlexiblePageController/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = htomcat.THFlexiblePageController;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F3478DAA209D8D9600622329 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = THFlexiblePageController/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = htomcat.THFlexiblePageController;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F3478DAB209D8D9600622329 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = THFlexiblePageControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = htomcat.THFlexiblePageControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InfinitePageViewController.app/InfinitePageViewController";
+			};
+			name = Debug;
+		};
+		F3478DAC209D8D9600622329 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = THFlexiblePageControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = htomcat.THFlexiblePageControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InfinitePageViewController.app/InfinitePageViewController";
+			};
+			name = Release;
+		};
 		F3DC3FA02081A8C800791116 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -465,6 +740,7 @@
 		F3DC3FA32081A8C800791116 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = InfinitePageViewController/Info.plist;
@@ -482,6 +758,7 @@
 		F3DC3FA42081A8C800791116 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = InfinitePageViewController/Info.plist;
@@ -577,6 +854,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		F3478DAD209D8D9600622329 /* Build configuration list for PBXNativeTarget "THFlexiblePageController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3478DA9209D8D9600622329 /* Debug */,
+				F3478DAA209D8D9600622329 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3478DAF209D8D9600622329 /* Build configuration list for PBXNativeTarget "THFlexiblePageControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3478DAB209D8D9600622329 /* Debug */,
+				F3478DAC209D8D9600622329 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		F3DC3F712081A8C700791116 /* Build configuration list for PBXProject "InfinitePageViewController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

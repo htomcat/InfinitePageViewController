@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import THFlexiblePageController
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,6 +17,28 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        let vc = RootViewController.makeInstance()
+        let view1 = Test1ViewController()
+        view1.title = "title1"
+        view1.view.backgroundColor = .red
+        let view2 = Test2ViewController()
+        view2.title = "title2"
+        view2.view.backgroundColor = .yellow
+        let view3 = Test3ViewController()
+        view3.title = "title3"
+        view3.view.backgroundColor = .blue
+        let view4 = Test4ViewController()
+        view4.title = "title4"
+        view4.view.backgroundColor = .white
+        let view5 = Test5ViewController()
+        view5.title = "title5"
+        view5.view.backgroundColor = .black
+        let sample = [view1, view2, view3, view4, view5]
+        vc.setPages(sample)
+
+        window = UIWindow()
+        window?.rootViewController = vc
+        window?.makeKeyAndVisible()
         return true
     }
 
@@ -42,5 +65,20 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
 
+}
+
+class Test1ViewController: UIViewController {
+}
+
+class Test2ViewController: UIViewController {
+}
+
+class Test3ViewController: UIViewController {
+}
+
+class Test4ViewController: UIViewController {
+}
+
+class Test5ViewController: UIViewController {
 }
 

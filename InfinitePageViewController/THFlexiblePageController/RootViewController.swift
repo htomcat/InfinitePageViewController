@@ -8,17 +8,18 @@
 
 import UIKit
 
-class RootViewController: UIViewController {
+public class RootViewController: UIViewController {
 
     var dataSource: CustomDatasource?
     let delegate = CustomDelegate()
 
-    static func makeInstance() -> RootViewController {
-       let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "RootViewController") as! RootViewController
+    public static func makeInstance() -> RootViewController {
+        let bundle = Bundle(for: RootViewController.self)
+       let vc = UIStoryboard(name: "Main", bundle: bundle).instantiateViewController(withIdentifier: "RootViewController") as! RootViewController
         return vc
     }
 
-    func setPages(_ viewControllers: [UIViewController]) {
+    public func setPages(_ viewControllers: [UIViewController]) {
         let repository = PagesRepository(pages: viewControllers)
         dataSource = CustomDatasource(repository: repository)
     }
@@ -26,7 +27,7 @@ class RootViewController: UIViewController {
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+    override public func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         switch segue.destination {
         case let vc as UpperTabViewController:
             delegate.upperTab = vc
