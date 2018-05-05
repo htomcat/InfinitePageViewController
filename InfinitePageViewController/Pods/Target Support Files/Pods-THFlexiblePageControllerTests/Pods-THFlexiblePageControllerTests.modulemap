@@ -1,0 +1,6 @@
+framework module Pods_THFlexiblePageControllerTests {
+  umbrella header "Pods-THFlexiblePageControllerTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

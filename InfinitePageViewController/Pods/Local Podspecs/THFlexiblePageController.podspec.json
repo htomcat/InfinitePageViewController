@@ -1,0 +1,17 @@
+{
+  "name": "THFlexiblePageController",
+  "version": "0.0.1",
+  "summary": "Infinite page view controller.",
+  "description": "You implement easily a infinite page view controller",
+  "homepage": "https://example.com",
+  "license": "MIT",
+  "authors": "htomcat",
+  "platforms": {
+    "ios": "11.0"
+  },
+  "source": {
+    "git": "https://github.com/htomcat/InfinitePageViewController.git",
+    "tag": "0.0.1"
+  },
+  "source_files": "InfinitePageViewController/THFlexiblePageController/*.{h,m,swift}"
+}

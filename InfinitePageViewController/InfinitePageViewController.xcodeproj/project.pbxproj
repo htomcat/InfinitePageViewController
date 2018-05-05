@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2DDF8CBD2357617F2F353D91 /* Pods_InfinitePageViewControllerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6260D5B63A878A08F1FFA499 /* Pods_InfinitePageViewControllerUITests.framework */; };
+		34C6F080FD990899EC1373A2 /* Pods_THFlexiblePageControllerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF30C20BDB9AAAC3EADFECF5 /* Pods_THFlexiblePageControllerTests.framework */; };
+		A390F8277578E095FDFC2C07 /* Pods_InfinitePageViewController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D826DCB46BCF1FB8E486FDB /* Pods_InfinitePageViewController.framework */; };
+		A9468F87F3AA806125CF9E6E /* Pods_THFlexiblePageController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E050AD3AF2AB390BA0D0209 /* Pods_THFlexiblePageController.framework */; };
 		F3478D9B209D8D9600622329 /* THFlexiblePageController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3478D92209D8D9600622329 /* THFlexiblePageController.framework */; };
 		F3478DA2209D8D9600622329 /* THFlexiblePageControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3478DA1209D8D9600622329 /* THFlexiblePageControllerTests.swift */; };
 		F3478DA4209D8D9600622329 /* THFlexiblePageController.h in Headers */ = {isa = PBXBuildFile; fileRef = F3478D94209D8D9600622329 /* THFlexiblePageController.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -27,6 +31,7 @@
 		F3DC3F882081A8C800791116 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3DC3F862081A8C800791116 /* LaunchScreen.storyboard */; };
 		F3DC3F932081A8C800791116 /* InfinitePageViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DC3F922081A8C800791116 /* InfinitePageViewControllerTests.swift */; };
 		F3DC3F9E2081A8C800791116 /* InfinitePageViewControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DC3F9D2081A8C800791116 /* InfinitePageViewControllerUITests.swift */; };
+		FB4467093364DBC10FD9B0DE /* Pods_InfinitePageViewControllerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7833A2CD6D5AFBB62E98432A /* Pods_InfinitePageViewControllerTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,6 +87,21 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0E050AD3AF2AB390BA0D0209 /* Pods_THFlexiblePageController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_THFlexiblePageController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		129405527E20ED9CCB667E8E /* Pods-InfinitePageViewControllerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InfinitePageViewControllerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-InfinitePageViewControllerUITests/Pods-InfinitePageViewControllerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3645A041DD955BB6261ED71F /* Pods-THFlexiblePageController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-THFlexiblePageController.debug.xcconfig"; path = "Pods/Target Support Files/Pods-THFlexiblePageController/Pods-THFlexiblePageController.debug.xcconfig"; sourceTree = "<group>"; };
+		405DE748E3715DF3B49DDCEA /* Pods-THFlexiblePageControllerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-THFlexiblePageControllerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-THFlexiblePageControllerTests/Pods-THFlexiblePageControllerTests.release.xcconfig"; sourceTree = "<group>"; };
+		48C3CA39328F80AFAFF86269 /* Pods-InfinitePageViewControllerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InfinitePageViewControllerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-InfinitePageViewControllerTests/Pods-InfinitePageViewControllerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4AC24414A3EFE37001386C6D /* Pods-THFlexiblePageControllerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-THFlexiblePageControllerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-THFlexiblePageControllerTests/Pods-THFlexiblePageControllerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4C84C0C813478F17F16B8242 /* Pods-THFlexiblePageController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-THFlexiblePageController.release.xcconfig"; path = "Pods/Target Support Files/Pods-THFlexiblePageController/Pods-THFlexiblePageController.release.xcconfig"; sourceTree = "<group>"; };
+		5D826DCB46BCF1FB8E486FDB /* Pods_InfinitePageViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InfinitePageViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6260D5B63A878A08F1FFA499 /* Pods_InfinitePageViewControllerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InfinitePageViewControllerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7833A2CD6D5AFBB62E98432A /* Pods_InfinitePageViewControllerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InfinitePageViewControllerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8566D6675F47AD2007BA1E8E /* Pods-InfinitePageViewControllerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InfinitePageViewControllerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-InfinitePageViewControllerUITests/Pods-InfinitePageViewControllerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9D23A8C639038912CD2B5E58 /* Pods-InfinitePageViewControllerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InfinitePageViewControllerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-InfinitePageViewControllerTests/Pods-InfinitePageViewControllerTests.release.xcconfig"; sourceTree = "<group>"; };
+		9DC042561722C95F248AE8BE /* Pods-InfinitePageViewController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InfinitePageViewController.release.xcconfig"; path = "Pods/Target Support Files/Pods-InfinitePageViewController/Pods-InfinitePageViewController.release.xcconfig"; sourceTree = "<group>"; };
+		BF30C20BDB9AAAC3EADFECF5 /* Pods_THFlexiblePageControllerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_THFlexiblePageControllerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4888BAA0FFBBBDF154EE4FF /* Pods-InfinitePageViewController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InfinitePageViewController.debug.xcconfig"; path = "Pods/Target Support Files/Pods-InfinitePageViewController/Pods-InfinitePageViewController.debug.xcconfig"; sourceTree = "<group>"; };
 		F33332F920896DD5001021C0 /* CustomDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDelegate.swift; sourceTree = "<group>"; };
 		F34358E12086CF870054F620 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 		F3478D92209D8D9600622329 /* THFlexiblePageController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = THFlexiblePageController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -116,6 +136,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9468F87F3AA806125CF9E6E /* Pods_THFlexiblePageController.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -124,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F3478D9B209D8D9600622329 /* THFlexiblePageController.framework in Frameworks */,
+				34C6F080FD990899EC1373A2 /* Pods_THFlexiblePageControllerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,6 +154,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F3478DA7209D8D9600622329 /* THFlexiblePageController.framework in Frameworks */,
+				A390F8277578E095FDFC2C07 /* Pods_InfinitePageViewController.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,6 +162,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB4467093364DBC10FD9B0DE /* Pods_InfinitePageViewControllerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,12 +170,42 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DDF8CBD2357617F2F353D91 /* Pods_InfinitePageViewControllerUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		67D1AEDEC87B031D462EEBF7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E4888BAA0FFBBBDF154EE4FF /* Pods-InfinitePageViewController.debug.xcconfig */,
+				9DC042561722C95F248AE8BE /* Pods-InfinitePageViewController.release.xcconfig */,
+				48C3CA39328F80AFAFF86269 /* Pods-InfinitePageViewControllerTests.debug.xcconfig */,
+				9D23A8C639038912CD2B5E58 /* Pods-InfinitePageViewControllerTests.release.xcconfig */,
+				129405527E20ED9CCB667E8E /* Pods-InfinitePageViewControllerUITests.debug.xcconfig */,
+				8566D6675F47AD2007BA1E8E /* Pods-InfinitePageViewControllerUITests.release.xcconfig */,
+				3645A041DD955BB6261ED71F /* Pods-THFlexiblePageController.debug.xcconfig */,
+				4C84C0C813478F17F16B8242 /* Pods-THFlexiblePageController.release.xcconfig */,
+				4AC24414A3EFE37001386C6D /* Pods-THFlexiblePageControllerTests.debug.xcconfig */,
+				405DE748E3715DF3B49DDCEA /* Pods-THFlexiblePageControllerTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		81DBCBE1C94C6F220C4D7268 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5D826DCB46BCF1FB8E486FDB /* Pods_InfinitePageViewController.framework */,
+				7833A2CD6D5AFBB62E98432A /* Pods_InfinitePageViewControllerTests.framework */,
+				6260D5B63A878A08F1FFA499 /* Pods_InfinitePageViewControllerUITests.framework */,
+				0E050AD3AF2AB390BA0D0209 /* Pods_THFlexiblePageController.framework */,
+				BF30C20BDB9AAAC3EADFECF5 /* Pods_THFlexiblePageControllerTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F3478D93209D8D9600622329 /* THFlexiblePageController */ = {
 			isa = PBXGroup;
 			children = (
@@ -229,6 +283,8 @@
 				F3478D93209D8D9600622329 /* THFlexiblePageController */,
 				F3478DA0209D8D9600622329 /* THFlexiblePageControllerTests */,
 				F3DC3F772081A8C700791116 /* Products */,
+				67D1AEDEC87B031D462EEBF7 /* Pods */,
+				81DBCBE1C94C6F220C4D7268 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -291,6 +347,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F3478DAD209D8D9600622329 /* Build configuration list for PBXNativeTarget "THFlexiblePageController" */;
 			buildPhases = (
+				19A5E0FD03989266C32A0355 /* [CP] Check Pods Manifest.lock */,
 				F3478D8D209D8D9600622329 /* Sources */,
 				F3478D8E209D8D9600622329 /* Frameworks */,
 				F3478D8F209D8D9600622329 /* Headers */,
@@ -309,6 +366,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F3478DAF209D8D9600622329 /* Build configuration list for PBXNativeTarget "THFlexiblePageControllerTests" */;
 			buildPhases = (
+				8546AD98AE2626A15FE1C4D4 /* [CP] Check Pods Manifest.lock */,
 				F3478D96209D8D9600622329 /* Sources */,
 				F3478D97209D8D9600622329 /* Frameworks */,
 				F3478D98209D8D9600622329 /* Resources */,
@@ -328,6 +386,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F3DC3FA22081A8C800791116 /* Build configuration list for PBXNativeTarget "InfinitePageViewController" */;
 			buildPhases = (
+				3D1918243ADDF5C9A7293B96 /* [CP] Check Pods Manifest.lock */,
 				F3DC3F722081A8C700791116 /* Sources */,
 				F3DC3F732081A8C700791116 /* Frameworks */,
 				F3DC3F742081A8C700791116 /* Resources */,
@@ -347,6 +406,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F3DC3FA52081A8C800791116 /* Build configuration list for PBXNativeTarget "InfinitePageViewControllerTests" */;
 			buildPhases = (
+				1D7EE5866682592FD80CDB2A /* [CP] Check Pods Manifest.lock */,
 				F3DC3F8A2081A8C800791116 /* Sources */,
 				F3DC3F8B2081A8C800791116 /* Frameworks */,
 				F3DC3F8C2081A8C800791116 /* Resources */,
@@ -365,6 +425,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F3DC3FA82081A8C800791116 /* Build configuration list for PBXNativeTarget "InfinitePageViewControllerUITests" */;
 			buildPhases = (
+				C9987C134293A65AF3F82F96 /* [CP] Check Pods Manifest.lock */,
 				F3DC3F952081A8C800791116 /* Sources */,
 				F3DC3F962081A8C800791116 /* Frameworks */,
 				F3DC3F972081A8C800791116 /* Resources */,
@@ -473,6 +534,99 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		19A5E0FD03989266C32A0355 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-THFlexiblePageController-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1D7EE5866682592FD80CDB2A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-InfinitePageViewControllerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3D1918243ADDF5C9A7293B96 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-InfinitePageViewController-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8546AD98AE2626A15FE1C4D4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-THFlexiblePageControllerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C9987C134293A65AF3F82F96 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-InfinitePageViewControllerUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F3478D8D209D8D9600622329 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -573,6 +727,7 @@
 /* Begin XCBuildConfiguration section */
 		F3478DA9209D8D9600622329 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3645A041DD955BB6261ED71F /* Pods-THFlexiblePageController.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
@@ -583,11 +738,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = THFlexiblePageController/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = htomcat.THFlexiblePageController;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -600,6 +751,7 @@
 		};
 		F3478DAA209D8D9600622329 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C84C0C813478F17F16B8242 /* Pods-THFlexiblePageController.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
@@ -610,11 +762,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = THFlexiblePageController/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = htomcat.THFlexiblePageController;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -627,15 +775,12 @@
 		};
 		F3478DAB209D8D9600622329 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AC24414A3EFE37001386C6D /* Pods-THFlexiblePageControllerTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = THFlexiblePageControllerTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = htomcat.THFlexiblePageControllerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -646,15 +791,12 @@
 		};
 		F3478DAC209D8D9600622329 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 405DE748E3715DF3B49DDCEA /* Pods-THFlexiblePageControllerTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = THFlexiblePageControllerTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = htomcat.THFlexiblePageControllerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -779,15 +921,13 @@
 		};
 		F3DC3FA32081A8C800791116 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4888BAA0FFBBBDF154EE4FF /* Pods-InfinitePageViewController.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = InfinitePageViewController/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = htomcat.InfinitePageViewController;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -797,15 +937,13 @@
 		};
 		F3DC3FA42081A8C800791116 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DC042561722C95F248AE8BE /* Pods-InfinitePageViewController.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = InfinitePageViewController/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = htomcat.InfinitePageViewController;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -815,16 +953,13 @@
 		};
 		F3DC3FA62081A8C800791116 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48C3CA39328F80AFAFF86269 /* Pods-InfinitePageViewControllerTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = InfinitePageViewControllerTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = htomcat.InfinitePageViewControllerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -835,16 +970,13 @@
 		};
 		F3DC3FA72081A8C800791116 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D23A8C639038912CD2B5E58 /* Pods-InfinitePageViewControllerTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = InfinitePageViewControllerTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = htomcat.InfinitePageViewControllerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -855,15 +987,12 @@
 		};
 		F3DC3FA92081A8C800791116 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 129405527E20ED9CCB667E8E /* Pods-InfinitePageViewControllerUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = InfinitePageViewControllerUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = htomcat.InfinitePageViewControllerUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -874,15 +1003,12 @@
 		};
 		F3DC3FAA2081A8C800791116 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8566D6675F47AD2007BA1E8E /* Pods-InfinitePageViewControllerUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = InfinitePageViewControllerUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = htomcat.InfinitePageViewControllerUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;

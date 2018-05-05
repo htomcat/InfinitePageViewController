@@ -1,0 +1,1075 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C7293262C7CDDF4DFD77FDB999F279A /* Pods-InfinitePageViewControllerUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F2DDF1D463A14DFA839AF1AC03DEFB3 /* Pods-InfinitePageViewControllerUITests-dummy.m */; };
+		0CCB9D98E1B1C870E5084F4B43865F27 /* Pods-THFlexiblePageController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 51C14D6B3736F69978B21218D41504B5 /* Pods-THFlexiblePageController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		15B3CF43E4552005B42F0DB69D19E485 /* Pods-InfinitePageViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E25A38EC5B87DC92C63439C482C7D99 /* Pods-InfinitePageViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		299DBD245FF93D5E0D0AC9B791A87983 /* Pods-THFlexiblePageControllerTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EC779C51DAAA371ADCB09DB85A842FF9 /* Pods-THFlexiblePageControllerTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		572A05C5C7ADCD73FBC8BEEA6C762DA1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		5BF0CE8466CC43B56F88AC187FF8BBAF /* Pods-InfinitePageViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D09D43757E5AD5D6F00CDB1521AE5A53 /* Pods-InfinitePageViewController-dummy.m */; };
+		5E413BF8C04CA60F123478BC3F3F98CC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		811EAA5554FDBAEC89044BDF752031BD /* Pods-THFlexiblePageController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F9DB20F04CBE55F2D3C832B14773696 /* Pods-THFlexiblePageController-dummy.m */; };
+		8CD6B0EA064B9D8DB987AFD40922FECE /* Pods-InfinitePageViewControllerUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DFFE8B376100F17A0B046356D855EAE5 /* Pods-InfinitePageViewControllerUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9053F608FF998FF70500BD4B06EA9F9D /* Pods-InfinitePageViewControllerTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 268A6221888720C8BED78A70320B70A4 /* Pods-InfinitePageViewControllerTests-dummy.m */; };
+		A67C66408B63DF0E9150E8AAB879C6D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		B5B5E727E305F248145EF75AC335B2CD /* Pods-THFlexiblePageControllerTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C6C2D2ED7037691252761917B0F656C /* Pods-THFlexiblePageControllerTests-dummy.m */; };
+		DA727F73ED44C31E6445B560D64836F9 /* Pods-InfinitePageViewControllerTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E4E28DF1FE34FCECEBF2894E7BA017E /* Pods-InfinitePageViewControllerTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E3962E142EEB86D66C14085C0E20519C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		E3B24B4BBB715CA88788871A7B3B4371 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0549F64264EEC3CB7F578C3E16A5DF83 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E77FD9861A401F8FA89A953983910018;
+			remoteInfo = "Pods-THFlexiblePageController";
+		};
+		3FE787F7D87F8643D3AB2F42B3F5F9BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E5C1F34988E18371C87D5011A77A3BC7;
+			remoteInfo = "Pods-InfinitePageViewController";
+		};
+		C6998AFB7EA075248AB3DAE0833CC629 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E5C1F34988E18371C87D5011A77A3BC7;
+			remoteInfo = "Pods-InfinitePageViewController";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		070E65333446450A6678E49D78B90073 /* Pods_InfinitePageViewControllerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_InfinitePageViewControllerTests.framework; path = "Pods-InfinitePageViewControllerTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E25A38EC5B87DC92C63439C482C7D99 /* Pods-InfinitePageViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-InfinitePageViewController-umbrella.h"; sourceTree = "<group>"; };
+		1E4E28DF1FE34FCECEBF2894E7BA017E /* Pods-InfinitePageViewControllerTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-InfinitePageViewControllerTests-umbrella.h"; sourceTree = "<group>"; };
+		2079EC47A88C5AFF40D45815D6020616 /* Pods-InfinitePageViewControllerTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-InfinitePageViewControllerTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		268A6221888720C8BED78A70320B70A4 /* Pods-InfinitePageViewControllerTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-InfinitePageViewControllerTests-dummy.m"; sourceTree = "<group>"; };
+		27941384F497628EA43F85DB6344D664 /* Pods-THFlexiblePageController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-THFlexiblePageController.release.xcconfig"; sourceTree = "<group>"; };
+		29E506A865593C1A1DA2194A966CFD57 /* Pods-InfinitePageViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-InfinitePageViewController.modulemap"; sourceTree = "<group>"; };
+		30854FB7EF9C9F880474637575F3C74D /* Pods-THFlexiblePageControllerTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-THFlexiblePageControllerTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		3288273B727E8DCFF052844F9D2B0614 /* Pods_THFlexiblePageController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_THFlexiblePageController.framework; path = "Pods-THFlexiblePageController.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		37877C7F73B859918E1E161A5442F81B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BA40CD4EA06266509DDCB74486AB021 /* Pods-InfinitePageViewController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-InfinitePageViewController.release.xcconfig"; sourceTree = "<group>"; };
+		3E999FBF05FDC4D4DFA0E7673033EDFA /* Pods-THFlexiblePageControllerTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-THFlexiblePageControllerTests.modulemap"; sourceTree = "<group>"; };
+		3F2DDF1D463A14DFA839AF1AC03DEFB3 /* Pods-InfinitePageViewControllerUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-InfinitePageViewControllerUITests-dummy.m"; sourceTree = "<group>"; };
+		3F9DB20F04CBE55F2D3C832B14773696 /* Pods-THFlexiblePageController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-THFlexiblePageController-dummy.m"; sourceTree = "<group>"; };
+		40FEBD0C7FBDA73DBEFD8C1781FFFE9B /* Pods-InfinitePageViewControllerTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-InfinitePageViewControllerTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4338FC4FCD9E4B424924DA0F68AFAA81 /* Pods-THFlexiblePageControllerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-THFlexiblePageControllerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		51C14D6B3736F69978B21218D41504B5 /* Pods-THFlexiblePageController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-THFlexiblePageController-umbrella.h"; sourceTree = "<group>"; };
+		5A154FDAD1363A0476A322BADD7C072C /* Pods-InfinitePageViewControllerUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-InfinitePageViewControllerUITests-resources.sh"; sourceTree = "<group>"; };
+		5E7D34FAE51F902F9DAA23003DF96045 /* Pods-THFlexiblePageController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-THFlexiblePageController.debug.xcconfig"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		66E9B76547988AF1C4293BF7DC52A052 /* Pods-InfinitePageViewController-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-InfinitePageViewController-resources.sh"; sourceTree = "<group>"; };
+		7997762559D4FA58091C93BD3F367590 /* Pods_InfinitePageViewControllerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_InfinitePageViewControllerUITests.framework; path = "Pods-InfinitePageViewControllerUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		810C47B06DF96CCF86545766E5824C50 /* Pods_THFlexiblePageControllerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_THFlexiblePageControllerTests.framework; path = "Pods-THFlexiblePageControllerTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		87C10B80AAE43F517685DEAE126F1B20 /* Pods-InfinitePageViewControllerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-InfinitePageViewControllerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8B7427A5E7EBA2C77536DD6105B26FF0 /* Pods-InfinitePageViewControllerUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-InfinitePageViewControllerUITests-frameworks.sh"; sourceTree = "<group>"; };
+		8C6C2D2ED7037691252761917B0F656C /* Pods-THFlexiblePageControllerTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-THFlexiblePageControllerTests-dummy.m"; sourceTree = "<group>"; };
+		8C90ADD59BBB204B40475FBD68EB32C2 /* Pods-THFlexiblePageController-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-THFlexiblePageController-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8D7CBF48D2CF0E58383BD8D06DAAA7B1 /* Pods-THFlexiblePageController-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-THFlexiblePageController-resources.sh"; sourceTree = "<group>"; };
+		90904854EC7BEEB9A83E7D191B79F5D5 /* Pods_InfinitePageViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_InfinitePageViewController.framework; path = "Pods-InfinitePageViewController.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9317FE92AA65834A54FC360B3FEE7E13 /* Pods-InfinitePageViewController-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-InfinitePageViewController-frameworks.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9540C9CA6C785769AF69D3B0E97F3002 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95782F8CF47A64BA620BA6150C3F8E3D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		978F9EDB8DAAFDE40E5A21DD77C6A330 /* Pods-InfinitePageViewController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-InfinitePageViewController.debug.xcconfig"; sourceTree = "<group>"; };
+		98E6F55ED0B223F49E800BC6EFC22898 /* Pods-InfinitePageViewControllerUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-InfinitePageViewControllerUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9974FDB76715EE15D9E5CD68756D8732 /* Pods-InfinitePageViewControllerUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-InfinitePageViewControllerUITests.modulemap"; sourceTree = "<group>"; };
+		9BC86C293B9779E9ED65B83723B00538 /* Pods-InfinitePageViewControllerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-InfinitePageViewControllerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A03C5B469586E96A28871B5F652EF072 /* Pods-InfinitePageViewControllerTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-InfinitePageViewControllerTests-resources.sh"; sourceTree = "<group>"; };
+		A0EFAE5FFE2CE77E08CB20319BED9F39 /* THFlexiblePageController.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = THFlexiblePageController.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A891EC8AB0B77ACBF95619D31AA8DCC2 /* Pods-THFlexiblePageControllerTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-THFlexiblePageControllerTests-resources.sh"; sourceTree = "<group>"; };
+		B3825A12419B5BFBB7ECD6DF57904B6F /* Pods-THFlexiblePageController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-THFlexiblePageController.modulemap"; sourceTree = "<group>"; };
+		B4E99BD678EEA2FD6954AFA9DE8B86EA /* Pods-InfinitePageViewControllerTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-InfinitePageViewControllerTests-frameworks.sh"; sourceTree = "<group>"; };
+		B9C5BD3A5AA136455B0A534CD473B80E /* Pods-THFlexiblePageControllerTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-THFlexiblePageControllerTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C494E015C6F4970170E8BE8F95B2A443 /* Pods-InfinitePageViewControllerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-InfinitePageViewControllerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CAF752B33E61D5144FB8756D6C27BAFC /* Pods-InfinitePageViewController-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-InfinitePageViewController-acknowledgements.plist"; sourceTree = "<group>"; };
+		D09D43757E5AD5D6F00CDB1521AE5A53 /* Pods-InfinitePageViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-InfinitePageViewController-dummy.m"; sourceTree = "<group>"; };
+		D29A821DC0C98EFEF1EB30FFE3801AF1 /* Pods-THFlexiblePageController-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-THFlexiblePageController-acknowledgements.plist"; sourceTree = "<group>"; };
+		DFFE8B376100F17A0B046356D855EAE5 /* Pods-InfinitePageViewControllerUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-InfinitePageViewControllerUITests-umbrella.h"; sourceTree = "<group>"; };
+		E58C4CFC0A985EF41E864CCDE417FC76 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5F71C80A8341158600C43F2C31E237B /* Pods-InfinitePageViewControllerUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-InfinitePageViewControllerUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E65030F438654BDE36DB9DDE89F7E631 /* Pods-THFlexiblePageControllerTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-THFlexiblePageControllerTests-frameworks.sh"; sourceTree = "<group>"; };
+		E8191DAF13919F50474C8F5F944B1779 /* Pods-InfinitePageViewController-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-InfinitePageViewController-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E8700A3A76C09FC0815888DF0891B717 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8DFE09DE5F94C381282DDB93405E244 /* Pods-InfinitePageViewControllerTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-InfinitePageViewControllerTests.modulemap"; sourceTree = "<group>"; };
+		EC779C51DAAA371ADCB09DB85A842FF9 /* Pods-THFlexiblePageControllerTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-THFlexiblePageControllerTests-umbrella.h"; sourceTree = "<group>"; };
+		EEF675AACAD1D32C349E56793C04E379 /* Pods-InfinitePageViewControllerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-InfinitePageViewControllerTests.release.xcconfig"; sourceTree = "<group>"; };
+		F65AFDA109206EE74576DA69D82A3C4D /* Pods-THFlexiblePageControllerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-THFlexiblePageControllerTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		289CA1DB14C85626F919E4E563EB398E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A67C66408B63DF0E9150E8AAB879C6D4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31187D50FE7A2ACD8E8A93484E4B50F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3962E142EEB86D66C14085C0E20519C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71D4A3AB4F5AF61CF023E92CE7274AA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E413BF8C04CA60F123478BC3F3F98CC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A0DD4FBF3CD1FEA614F94E1C96E74AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3B24B4BBB715CA88788871A7B3B4371 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB34764197803868EDAEF84E81151606 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				572A05C5C7ADCD73FBC8BEEA6C762DA1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		33AD43ECAD2DF9583FC61BB5DD9A9DAE /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				A0EFAE5FFE2CE77E08CB20319BED9F39 /* THFlexiblePageController.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		3F7819265C76127397501BF9A9F85DB9 /* Pods-InfinitePageViewController */ = {
+			isa = PBXGroup;
+			children = (
+				95782F8CF47A64BA620BA6150C3F8E3D /* Info.plist */,
+				29E506A865593C1A1DA2194A966CFD57 /* Pods-InfinitePageViewController.modulemap */,
+				E8191DAF13919F50474C8F5F944B1779 /* Pods-InfinitePageViewController-acknowledgements.markdown */,
+				CAF752B33E61D5144FB8756D6C27BAFC /* Pods-InfinitePageViewController-acknowledgements.plist */,
+				D09D43757E5AD5D6F00CDB1521AE5A53 /* Pods-InfinitePageViewController-dummy.m */,
+				9317FE92AA65834A54FC360B3FEE7E13 /* Pods-InfinitePageViewController-frameworks.sh */,
+				66E9B76547988AF1C4293BF7DC52A052 /* Pods-InfinitePageViewController-resources.sh */,
+				1E25A38EC5B87DC92C63439C482C7D99 /* Pods-InfinitePageViewController-umbrella.h */,
+				978F9EDB8DAAFDE40E5A21DD77C6A330 /* Pods-InfinitePageViewController.debug.xcconfig */,
+				3BA40CD4EA06266509DDCB74486AB021 /* Pods-InfinitePageViewController.release.xcconfig */,
+			);
+			name = "Pods-InfinitePageViewController";
+			path = "Target Support Files/Pods-InfinitePageViewController";
+			sourceTree = "<group>";
+		};
+		448F9E312CA62D7489B0426EE9E04A64 /* Pods-THFlexiblePageController */ = {
+			isa = PBXGroup;
+			children = (
+				E8700A3A76C09FC0815888DF0891B717 /* Info.plist */,
+				B3825A12419B5BFBB7ECD6DF57904B6F /* Pods-THFlexiblePageController.modulemap */,
+				8C90ADD59BBB204B40475FBD68EB32C2 /* Pods-THFlexiblePageController-acknowledgements.markdown */,
+				D29A821DC0C98EFEF1EB30FFE3801AF1 /* Pods-THFlexiblePageController-acknowledgements.plist */,
+				3F9DB20F04CBE55F2D3C832B14773696 /* Pods-THFlexiblePageController-dummy.m */,
+				8D7CBF48D2CF0E58383BD8D06DAAA7B1 /* Pods-THFlexiblePageController-resources.sh */,
+				51C14D6B3736F69978B21218D41504B5 /* Pods-THFlexiblePageController-umbrella.h */,
+				5E7D34FAE51F902F9DAA23003DF96045 /* Pods-THFlexiblePageController.debug.xcconfig */,
+				27941384F497628EA43F85DB6344D664 /* Pods-THFlexiblePageController.release.xcconfig */,
+			);
+			name = "Pods-THFlexiblePageController";
+			path = "Target Support Files/Pods-THFlexiblePageController";
+			sourceTree = "<group>";
+		};
+		7236E4A3EB6D2D1CA994F2B4D1AFBCAA /* THFlexiblePageController */ = {
+			isa = PBXGroup;
+			children = (
+				33AD43ECAD2DF9583FC61BB5DD9A9DAE /* Pod */,
+			);
+			name = THFlexiblePageController;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		7983318232C28E96E99ED307000EE587 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				90904854EC7BEEB9A83E7D191B79F5D5 /* Pods_InfinitePageViewController.framework */,
+				070E65333446450A6678E49D78B90073 /* Pods_InfinitePageViewControllerTests.framework */,
+				7997762559D4FA58091C93BD3F367590 /* Pods_InfinitePageViewControllerUITests.framework */,
+				3288273B727E8DCFF052844F9D2B0614 /* Pods_THFlexiblePageController.framework */,
+				810C47B06DF96CCF86545766E5824C50 /* Pods_THFlexiblePageControllerTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				8BD0519523A7EC6202A2CDED43C9AEB1 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				7983318232C28E96E99ED307000EE587 /* Products */,
+				B52492A8F3AFA014A3A807504F5593BB /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8BD0519523A7EC6202A2CDED43C9AEB1 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7236E4A3EB6D2D1CA994F2B4D1AFBCAA /* THFlexiblePageController */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		A669A804558E8E7C8FA3E39B55EA8AE7 /* Pods-InfinitePageViewControllerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				37877C7F73B859918E1E161A5442F81B /* Info.plist */,
+				9974FDB76715EE15D9E5CD68756D8732 /* Pods-InfinitePageViewControllerUITests.modulemap */,
+				98E6F55ED0B223F49E800BC6EFC22898 /* Pods-InfinitePageViewControllerUITests-acknowledgements.markdown */,
+				E5F71C80A8341158600C43F2C31E237B /* Pods-InfinitePageViewControllerUITests-acknowledgements.plist */,
+				3F2DDF1D463A14DFA839AF1AC03DEFB3 /* Pods-InfinitePageViewControllerUITests-dummy.m */,
+				8B7427A5E7EBA2C77536DD6105B26FF0 /* Pods-InfinitePageViewControllerUITests-frameworks.sh */,
+				5A154FDAD1363A0476A322BADD7C072C /* Pods-InfinitePageViewControllerUITests-resources.sh */,
+				DFFE8B376100F17A0B046356D855EAE5 /* Pods-InfinitePageViewControllerUITests-umbrella.h */,
+				9BC86C293B9779E9ED65B83723B00538 /* Pods-InfinitePageViewControllerUITests.debug.xcconfig */,
+				C494E015C6F4970170E8BE8F95B2A443 /* Pods-InfinitePageViewControllerUITests.release.xcconfig */,
+			);
+			name = "Pods-InfinitePageViewControllerUITests";
+			path = "Target Support Files/Pods-InfinitePageViewControllerUITests";
+			sourceTree = "<group>";
+		};
+		B52492A8F3AFA014A3A807504F5593BB /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3F7819265C76127397501BF9A9F85DB9 /* Pods-InfinitePageViewController */,
+				DE8ADB8AB51171C9E085AC398C970945 /* Pods-InfinitePageViewControllerTests */,
+				A669A804558E8E7C8FA3E39B55EA8AE7 /* Pods-InfinitePageViewControllerUITests */,
+				448F9E312CA62D7489B0426EE9E04A64 /* Pods-THFlexiblePageController */,
+				C937C76A0E8640FD8F62D2F705BA6318 /* Pods-THFlexiblePageControllerTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C937C76A0E8640FD8F62D2F705BA6318 /* Pods-THFlexiblePageControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				E58C4CFC0A985EF41E864CCDE417FC76 /* Info.plist */,
+				3E999FBF05FDC4D4DFA0E7673033EDFA /* Pods-THFlexiblePageControllerTests.modulemap */,
+				B9C5BD3A5AA136455B0A534CD473B80E /* Pods-THFlexiblePageControllerTests-acknowledgements.markdown */,
+				30854FB7EF9C9F880474637575F3C74D /* Pods-THFlexiblePageControllerTests-acknowledgements.plist */,
+				8C6C2D2ED7037691252761917B0F656C /* Pods-THFlexiblePageControllerTests-dummy.m */,
+				E65030F438654BDE36DB9DDE89F7E631 /* Pods-THFlexiblePageControllerTests-frameworks.sh */,
+				A891EC8AB0B77ACBF95619D31AA8DCC2 /* Pods-THFlexiblePageControllerTests-resources.sh */,
+				EC779C51DAAA371ADCB09DB85A842FF9 /* Pods-THFlexiblePageControllerTests-umbrella.h */,
+				4338FC4FCD9E4B424924DA0F68AFAA81 /* Pods-THFlexiblePageControllerTests.debug.xcconfig */,
+				F65AFDA109206EE74576DA69D82A3C4D /* Pods-THFlexiblePageControllerTests.release.xcconfig */,
+			);
+			name = "Pods-THFlexiblePageControllerTests";
+			path = "Target Support Files/Pods-THFlexiblePageControllerTests";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		DE8ADB8AB51171C9E085AC398C970945 /* Pods-InfinitePageViewControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				9540C9CA6C785769AF69D3B0E97F3002 /* Info.plist */,
+				E8DFE09DE5F94C381282DDB93405E244 /* Pods-InfinitePageViewControllerTests.modulemap */,
+				40FEBD0C7FBDA73DBEFD8C1781FFFE9B /* Pods-InfinitePageViewControllerTests-acknowledgements.markdown */,
+				2079EC47A88C5AFF40D45815D6020616 /* Pods-InfinitePageViewControllerTests-acknowledgements.plist */,
+				268A6221888720C8BED78A70320B70A4 /* Pods-InfinitePageViewControllerTests-dummy.m */,
+				B4E99BD678EEA2FD6954AFA9DE8B86EA /* Pods-InfinitePageViewControllerTests-frameworks.sh */,
+				A03C5B469586E96A28871B5F652EF072 /* Pods-InfinitePageViewControllerTests-resources.sh */,
+				1E4E28DF1FE34FCECEBF2894E7BA017E /* Pods-InfinitePageViewControllerTests-umbrella.h */,
+				87C10B80AAE43F517685DEAE126F1B20 /* Pods-InfinitePageViewControllerTests.debug.xcconfig */,
+				EEF675AACAD1D32C349E56793C04E379 /* Pods-InfinitePageViewControllerTests.release.xcconfig */,
+			);
+			name = "Pods-InfinitePageViewControllerTests";
+			path = "Target Support Files/Pods-InfinitePageViewControllerTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		273035AD2A9F3D191C5B492A408AE6D7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CCB9D98E1B1C870E5084F4B43865F27 /* Pods-THFlexiblePageController-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		452E5F38487A6C51137B8077011B7681 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CD6B0EA064B9D8DB987AFD40922FECE /* Pods-InfinitePageViewControllerUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C1E350D1EBF579767B554CE3B24B4AD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15B3CF43E4552005B42F0DB69D19E485 /* Pods-InfinitePageViewController-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3E110E7B53C20F05CE2939B99B4269D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA727F73ED44C31E6445B560D64836F9 /* Pods-InfinitePageViewControllerTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2BEE486F03726F2641B6D567897A994 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				299DBD245FF93D5E0D0AC9B791A87983 /* Pods-THFlexiblePageControllerTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5236BA3B2752CFFFD039A3507F7A5EA1 /* Pods-InfinitePageViewControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5ABC2D81C392249A9B32840BCB6DD2DB /* Build configuration list for PBXNativeTarget "Pods-InfinitePageViewControllerTests" */;
+			buildPhases = (
+				5A087828ED092506F7034EE718E4675A /* Sources */,
+				CB34764197803868EDAEF84E81151606 /* Frameworks */,
+				C3E110E7B53C20F05CE2939B99B4269D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B76EEE444CD1B8305DBA3D4EEFAE6CD6 /* PBXTargetDependency */,
+			);
+			name = "Pods-InfinitePageViewControllerTests";
+			productName = "Pods-InfinitePageViewControllerTests";
+			productReference = 070E65333446450A6678E49D78B90073 /* Pods_InfinitePageViewControllerTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A6265D645B2AEB2199742A5E55DE8A9F /* Pods-THFlexiblePageControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4041FF564B47F6455BD7DDFACBCBF454 /* Build configuration list for PBXNativeTarget "Pods-THFlexiblePageControllerTests" */;
+			buildPhases = (
+				A058233923A71615AA110D6FD475ABDA /* Sources */,
+				31187D50FE7A2ACD8E8A93484E4B50F3 /* Frameworks */,
+				D2BEE486F03726F2641B6D567897A994 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3A8370FA615AB34EC8E583E7B9F9820 /* PBXTargetDependency */,
+			);
+			name = "Pods-THFlexiblePageControllerTests";
+			productName = "Pods-THFlexiblePageControllerTests";
+			productReference = 810C47B06DF96CCF86545766E5824C50 /* Pods_THFlexiblePageControllerTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BDF14E24749F4F9E5EB1C30C2E01F3AF /* Pods-InfinitePageViewControllerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1681A323339953008A63EF1D9FD2250F /* Build configuration list for PBXNativeTarget "Pods-InfinitePageViewControllerUITests" */;
+			buildPhases = (
+				44EE7656C322DD9FAA9A53CFA6134C4C /* Sources */,
+				289CA1DB14C85626F919E4E563EB398E /* Frameworks */,
+				452E5F38487A6C51137B8077011B7681 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B1AAECF451EA9A4FDE4F9FE02F7BE5FA /* PBXTargetDependency */,
+			);
+			name = "Pods-InfinitePageViewControllerUITests";
+			productName = "Pods-InfinitePageViewControllerUITests";
+			productReference = 7997762559D4FA58091C93BD3F367590 /* Pods_InfinitePageViewControllerUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E5C1F34988E18371C87D5011A77A3BC7 /* Pods-InfinitePageViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 820F77BEF1C4B005882B595BFB1E6B68 /* Build configuration list for PBXNativeTarget "Pods-InfinitePageViewController" */;
+			buildPhases = (
+				0E067AB969CC76CF0BDA81E685EE800A /* Sources */,
+				71D4A3AB4F5AF61CF023E92CE7274AA1 /* Frameworks */,
+				6C1E350D1EBF579767B554CE3B24B4AD /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-InfinitePageViewController";
+			productName = "Pods-InfinitePageViewController";
+			productReference = 90904854EC7BEEB9A83E7D191B79F5D5 /* Pods_InfinitePageViewController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E77FD9861A401F8FA89A953983910018 /* Pods-THFlexiblePageController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A60D3F82D0CF75AA6B22DC30E7000190 /* Build configuration list for PBXNativeTarget "Pods-THFlexiblePageController" */;
+			buildPhases = (
+				08B67DDAD396E5F459882A936DA3A2D4 /* Sources */,
+				8A0DD4FBF3CD1FEA614F94E1C96E74AF /* Frameworks */,
+				273035AD2A9F3D191C5B492A408AE6D7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-THFlexiblePageController";
+			productName = "Pods-THFlexiblePageController";
+			productReference = 3288273B727E8DCFF052844F9D2B0614 /* Pods_THFlexiblePageController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 7983318232C28E96E99ED307000EE587 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E5C1F34988E18371C87D5011A77A3BC7 /* Pods-InfinitePageViewController */,
+				5236BA3B2752CFFFD039A3507F7A5EA1 /* Pods-InfinitePageViewControllerTests */,
+				BDF14E24749F4F9E5EB1C30C2E01F3AF /* Pods-InfinitePageViewControllerUITests */,
+				E77FD9861A401F8FA89A953983910018 /* Pods-THFlexiblePageController */,
+				A6265D645B2AEB2199742A5E55DE8A9F /* Pods-THFlexiblePageControllerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		08B67DDAD396E5F459882A936DA3A2D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				811EAA5554FDBAEC89044BDF752031BD /* Pods-THFlexiblePageController-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E067AB969CC76CF0BDA81E685EE800A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BF0CE8466CC43B56F88AC187FF8BBAF /* Pods-InfinitePageViewController-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44EE7656C322DD9FAA9A53CFA6134C4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C7293262C7CDDF4DFD77FDB999F279A /* Pods-InfinitePageViewControllerUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A087828ED092506F7034EE718E4675A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9053F608FF998FF70500BD4B06EA9F9D /* Pods-InfinitePageViewControllerTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A058233923A71615AA110D6FD475ABDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5B5E727E305F248145EF75AC335B2CD /* Pods-THFlexiblePageControllerTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B1AAECF451EA9A4FDE4F9FE02F7BE5FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-InfinitePageViewController";
+			target = E5C1F34988E18371C87D5011A77A3BC7 /* Pods-InfinitePageViewController */;
+			targetProxy = C6998AFB7EA075248AB3DAE0833CC629 /* PBXContainerItemProxy */;
+		};
+		B76EEE444CD1B8305DBA3D4EEFAE6CD6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-InfinitePageViewController";
+			target = E5C1F34988E18371C87D5011A77A3BC7 /* Pods-InfinitePageViewController */;
+			targetProxy = 3FE787F7D87F8643D3AB2F42B3F5F9BC /* PBXContainerItemProxy */;
+		};
+		F3A8370FA615AB34EC8E583E7B9F9820 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-THFlexiblePageController";
+			target = E77FD9861A401F8FA89A953983910018 /* Pods-THFlexiblePageController */;
+			targetProxy = 0549F64264EEC3CB7F578C3E16A5DF83 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		13A375CBAF763B01463A6C9657E32902 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 978F9EDB8DAAFDE40E5A21DD77C6A330 /* Pods-InfinitePageViewController.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-InfinitePageViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-InfinitePageViewController/Pods-InfinitePageViewController.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3EE88FB4C5FC2B2E5BE4550564A8C02A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BA40CD4EA06266509DDCB74486AB021 /* Pods-InfinitePageViewController.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-InfinitePageViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-InfinitePageViewController/Pods-InfinitePageViewController.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		57F700C386FB2947BEB6BEE99B64D558 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27941384F497628EA43F85DB6344D664 /* Pods-THFlexiblePageController.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-THFlexiblePageController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-THFlexiblePageController/Pods-THFlexiblePageController.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		691EE0234A3BA1A3B057D3A4C23C9CCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		6C431FF6120CCE6F051DEF94A4DD661A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4338FC4FCD9E4B424924DA0F68AFAA81 /* Pods-THFlexiblePageControllerTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-THFlexiblePageControllerTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-THFlexiblePageControllerTests/Pods-THFlexiblePageControllerTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		703082A85162812D3B777E668767AD25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		75C891B66E4CF70AAE99BF94BF5ACAF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BC86C293B9779E9ED65B83723B00538 /* Pods-InfinitePageViewControllerUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-InfinitePageViewControllerUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-InfinitePageViewControllerUITests/Pods-InfinitePageViewControllerUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		76EFCBD841EB36A47FDB1441E42C315A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEF675AACAD1D32C349E56793C04E379 /* Pods-InfinitePageViewControllerTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-InfinitePageViewControllerTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-InfinitePageViewControllerTests/Pods-InfinitePageViewControllerTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7D5A1FA3111435F88732F79DE6514565 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E7D34FAE51F902F9DAA23003DF96045 /* Pods-THFlexiblePageController.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-THFlexiblePageController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-THFlexiblePageController/Pods-THFlexiblePageController.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A52E84659CD16BA22A939EC46DB9FE87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C494E015C6F4970170E8BE8F95B2A443 /* Pods-InfinitePageViewControllerUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-InfinitePageViewControllerUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-InfinitePageViewControllerUITests/Pods-InfinitePageViewControllerUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B4EB40F9FFAFDE48D40ED8D533D36991 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F65AFDA109206EE74576DA69D82A3C4D /* Pods-THFlexiblePageControllerTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-THFlexiblePageControllerTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-THFlexiblePageControllerTests/Pods-THFlexiblePageControllerTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EF4A1281A79BF61E24C701F5B28094F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87C10B80AAE43F517685DEAE126F1B20 /* Pods-InfinitePageViewControllerTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-InfinitePageViewControllerTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-InfinitePageViewControllerTests/Pods-InfinitePageViewControllerTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1681A323339953008A63EF1D9FD2250F /* Build configuration list for PBXNativeTarget "Pods-InfinitePageViewControllerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75C891B66E4CF70AAE99BF94BF5ACAF9 /* Debug */,
+				A52E84659CD16BA22A939EC46DB9FE87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				691EE0234A3BA1A3B057D3A4C23C9CCC /* Debug */,
+				703082A85162812D3B777E668767AD25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4041FF564B47F6455BD7DDFACBCBF454 /* Build configuration list for PBXNativeTarget "Pods-THFlexiblePageControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C431FF6120CCE6F051DEF94A4DD661A /* Debug */,
+				B4EB40F9FFAFDE48D40ED8D533D36991 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5ABC2D81C392249A9B32840BCB6DD2DB /* Build configuration list for PBXNativeTarget "Pods-InfinitePageViewControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF4A1281A79BF61E24C701F5B28094F1 /* Debug */,
+				76EFCBD841EB36A47FDB1441E42C315A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		820F77BEF1C4B005882B595BFB1E6B68 /* Build configuration list for PBXNativeTarget "Pods-InfinitePageViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13A375CBAF763B01463A6C9657E32902 /* Debug */,
+				3EE88FB4C5FC2B2E5BE4550564A8C02A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A60D3F82D0CF75AA6B22DC30E7000190 /* Build configuration list for PBXNativeTarget "Pods-THFlexiblePageController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D5A1FA3111435F88732F79DE6514565 /* Debug */,
+				57F700C386FB2947BEB6BEE99B64D558 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

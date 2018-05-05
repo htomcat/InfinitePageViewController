@@ -1,0 +1,6 @@
+framework module Pods_InfinitePageViewControllerUITests {
+  umbrella header "Pods-InfinitePageViewControllerUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
